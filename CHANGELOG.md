@@ -11,6 +11,7 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
+| 2026-10-31 | review-picker | 1.1 | Answered questions go away on return (Elias: "dont keep questions where i answered") | LanguageApp, Prello |
 | 2026-10-31 | film-quality-gate | 1.5 | Elias's call: a new angle while the same move continues is allowed; re-crops, zooms of the same frame and same-frame time skips stay banned | LanguageApp, Prello |
 | 2026-10-31 | video-storyboard | 1.7 | Elias's call: a new angle while the same move continues is allowed; re-crops, zooms of the same frame and same-frame time skips stay banned | LanguageApp, Prello |
 | 2026-10-31 | sync tool | - | Runs the source's newer copy of itself first, so a tool added in an update installs on the first run (found when video-refs needed two runs) | LanguageApp, Prello |

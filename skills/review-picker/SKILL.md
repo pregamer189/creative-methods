@@ -5,7 +5,7 @@ description: Use when making any page or message where a person picks between op
 
 # Review picker
 
-Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 A picker exists to get a clear answer fast. The owner rejected pickers that gave
 no way to say "neither", no room for a short comment, and options that made no
@@ -37,6 +37,9 @@ is not shown.
 ## The page
 
 - About seven items at most; the rest wait for the next page.
+- **Answered questions go away.** When the person comes back, show only what is still
+  unanswered, with one key to bring the answered ones back. Never ask again what they
+  already answered.
 - A **"Copy my marks"** key puts every answer on the clipboard as plain text, one
   line per item, for example:
   ```
