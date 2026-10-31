@@ -5,7 +5,7 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
-Version 1.4 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.5 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Plan the whole film on one page before anything is built, so nothing is
 improvised and every note can point at one shot.
@@ -22,6 +22,9 @@ improvised and every note can point at one shot.
   best point first, best second; a line between points that makes the next necessary.
 - **Write the script with the song playing**, so words land on the beat.
 - **Give each shot a reason you can say.** Nothing is there because it looks cool.
+- **Choose continuous or cut.** Product and explainer greats barely cut: a hand or an
+  object carries the eye. Screens are objects (close, tilted, touched), words live in
+  the world, and colour marks the chapters.
 - **Stillness against action:** plan held frames, a dip before the key line, and consider
   a stretch without voice at the climax.
 - **First 2 s work muted:** the product doing something real (a real capture, or the
@@ -76,7 +79,8 @@ improvised and every note can point at one shot.
 **Music:** tempo, mood, track; first downbeat at __ s, bar = __ s; dips at __
 **Voice:** which voice; takes per sentence
 **Sound family:** the one pack or palette
-**Finish:** 2-3 keywords; colours (dominant, secondary, accent); texture; frame rate
+**Finish:** 2-3 keywords; colours (dominant, secondary, accent); colour per chapter; texture; frame rate
+**School:** continuous or cut; the carrier between places; what returns (a home frame, a character)
 **Score:** outside __ · owner: like / unsure / dislike
 **Viewer motive and principle:** e.g. "wants to understand what they watch; before and after"
 **Measure at 48 h and 7 d:** watch time, shares, saves, trials

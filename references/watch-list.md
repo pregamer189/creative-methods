@@ -51,9 +51,9 @@ laptop ad: only "strip the map clean first" is kept.
 
 Not reachable: the Instagram reel De2nFEHx4Uy (yt-dlp is refused without a login).
 
-## Study frame by frame next (needs a downloaded file)
+## Study frame by frame
 
-Why these: comments or Ben Marriott single out something in the picture or sound.
+Done 2026-10-31, findings in `../methods/video/visual-grammar.md`: Ermia, Barney, Herman, Andrew, Nordin, Tinariwen, Gorillaz, RIMOWA, Kurzgesagt, Apple's Hello MacBook Neo, and part of Ben Marriott's showcase. Vimeo pieces refuse without a login. Still to study:
 
 | Film | Look at |
 |---|---|

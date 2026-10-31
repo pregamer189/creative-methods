@@ -33,7 +33,8 @@ films and screen recordings. Paste-ready version: `skills/video-storyboard/SKILL
 **Music:** tempo, mood, track; first downbeat at __ s, bar = __ s; dips at __
 **Voice:** which voice; takes per sentence
 **Sound family:** the one pack or palette
-**Finish:** 2-3 keywords; colours (dominant, secondary, accent); texture; frame rate
+**Finish:** 2-3 keywords; colours (dominant, secondary, accent); colour per chapter; texture; frame rate
+**School:** continuous or cut; the carrier between places; what returns (a home frame, a character)
 **Score:** outside __ · owner: like / unsure / dislike
 
 ## Shots

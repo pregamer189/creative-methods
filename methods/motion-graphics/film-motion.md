@@ -39,6 +39,12 @@ Models hit a ceiling; these don't. Spend the effort here:
 5. Inserts between elements: what each element does decides its insert (a card
    flips, a word types, a number counts).
 
+## Continuous before cut
+
+The product and explainer films with the most reach barely cut: about 3 in Apple's
+nearly 4-minute film, about 4 in Kurzgesagt's 7 (`../video/visual-grammar.md`). Plan a
+carrier for every change of place first; use a cut only when nothing can carry it.
+
 ## What the best motion of 2026 does
 
 From Ben Marriott's yearly showcase (no AI in it). Take the reasons:

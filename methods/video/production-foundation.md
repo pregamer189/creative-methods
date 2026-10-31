@@ -9,6 +9,8 @@ Built from about 25 videos read in full (captions and top comments, links in
 These are sources' practice unless a paper is named. Sponsored tools in those
 videos are not endorsed here.
 
+What the picture actually does, seen frame by frame and measured: `visual-grammar.md`.
+
 ## Who brings what
 
 | Input | Who | Why |
@@ -32,7 +34,7 @@ videos are not endorsed here.
 | **Texture** | Real material where possible (scans, prints, paper, ink) | Chosen as a palette from the start, never a filter on top | Grain on a neutral overlay layer, matched across elements | Pausing a frame shows hard and soft edges, and it doesn't look clinical |
 | **Colour** | 2-3 colours chosen early, by looking at what the taste board already leans to | Dominant, secondary, accent (about 60/30/10) | Correct first, then one look | Few colours, strong choices (Chazelle) |
 | **Motion** | The story beat; nothing moves without a reason | Importance decided before animating | Anticipation, then the move; stillness against action | `../motion-graphics/film-motion.md` |
-| **Product shots** | Real screens: recording or screenshots, never a made-up interface | One container that changes state rather than cuts | Real recordings give real states; the model builds from them | Every claim true on a real screen |
+| **Product shots** | Real screens: recording or screenshots, never a made-up interface | Treated as an object: close, tilted, shallow focus, or touched by a hand. One container that changes state rather than cuts | Real recordings give real states; the model builds from them | Every claim true on a real screen; it doesn't look like a flat recording |
 | **Cuts** | Decided from what each moment needs | A small vocabulary (flow, smash, action, match, rhythm) | Direction continues across the cut; eye stays in place | `editing-rules.md`; shot lengths measured with `tools/video-refs/measure.sh` |
 | **Mix** | Everything above | Voice first, then music, then the rest | About -14 LUFS, true peak under -1 dBTP | Measured, then heard on phone speakers and headphones |
 | **Reference study** | Outliers by real views, then what viewers said | Grammar written down, never content | Style guide file per reference | `../research/reference-analysis.md` |

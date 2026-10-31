@@ -21,6 +21,7 @@ idea ─► score ─► research ─► plan ─► build with skills ─► ga
 | Bring taste in as an input | `methods/research/taste.md` | |
 | Learn from great work | `methods/research/reference-analysis.md`, `references/watch-list.md` | (tools: `tools/video-refs/`) |
 | How every part of a film gets made | `methods/video/production-foundation.md` | |
+| What great films do, frame by frame | `methods/video/visual-grammar.md` | (tools: `tools/video-refs/shots.py`) |
 | Plan a film | `methods/video/storytelling.md`, `storyboard.md` | `video-storyboard` |
 | Shoot it yourself | `methods/video/solo-shoot.md` | |
 | Build a coded film | `methods/video/coded-films-workflow.md`, `methods/motion-graphics/film-motion.md` | |
