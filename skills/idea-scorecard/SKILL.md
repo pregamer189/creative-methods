@@ -5,6 +5,8 @@ description: Use when weighing ideas (product, feature, design, marketing, video
 
 # Idea scorecard
 
+Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+
 Judge ideas objectively: not by who said them, and not by whether they sound good
 to the agent. The product's own rules come from the repo's `CLAUDE.md` or the
 person's stated goals.

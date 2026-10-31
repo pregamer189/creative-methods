@@ -5,6 +5,8 @@ description: Use before showing any finished film or video to a person. Checks t
 
 # Film quality gate
 
+Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+
 Same-model checks share the maker's blind spots, so this gate uses only facts a
 command can measure, looks at named frames, and one outside eye. Run in order.
 Any failure: fix and rerun. **A film that fails any check is not shown.**

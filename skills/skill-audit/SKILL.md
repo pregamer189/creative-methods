@@ -5,6 +5,8 @@ description: Use when adding, updating or combining skills in a repo, or when tw
 
 # Skill audit
 
+Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+
 Skills from different places contradict each other, and an agent follows
 whichever it read last. This skill makes one owner per rule and proves it.
 

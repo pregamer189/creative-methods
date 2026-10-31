@@ -5,6 +5,8 @@ description: Use when adding animation, press feedback, haptics, sound effects o
 
 # Motion and feedback
 
+Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+
 Quiet at rest, instant on touch, one moment per screen. The product's tokens and
 rules win over the values here; use these when it has none.
 

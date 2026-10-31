@@ -11,6 +11,9 @@ scoring, paper search). Elias's projects read from it.
 - **Generic only.** A product's own brand (palette, logo, fonts, music picks,
   name, content) stays in that product's repo. Methods here say "use the
   product's tokens"; they never name the values.
+- **Living, not static.** Skills and methods change often; each skill carries a
+  version and every change is logged in `CHANGELOG.md`, with a column saying
+  which pasted account skills need updating.
 - Start with `METHOD-MAP.md`: how the pieces fit and which one to use when.
 
 ## Layout

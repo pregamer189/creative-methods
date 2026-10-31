@@ -5,6 +5,8 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
+Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+
 Plan the whole film on one page before anything is built, so nothing is
 improvised and every note can point at one shot.
 

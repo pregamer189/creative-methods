@@ -8,6 +8,7 @@
 |---|---|---|
 | `skill-rules.mjs` | Pulls every hard rule from the repo's rule files and skills, tagged by topic | `node scripts/skill-rules.mjs [--topic t] [--json]` |
 | `skill-combos.mjs` | Proves each skill set in `.claude/skills/combos.json` has an owner in `RULE-OWNERS.md` for every shared topic | `node scripts/skill-combos.mjs [--lock]` |
+| `skill-versions.mjs` | Checks every skill has a `Version` line with a matching `CHANGELOG.md` row; `--since <ref>` lists skills to re-paste | `node tools/skill-versions.mjs [--since origin/main]` |
 | `papers-mcp/` | Free paper search (ERIC, Europe PMC, Crossref; OpenAlex and Semantic Scholar with free keys). MCP server and command line, no dependencies | `node tools/papers-mcp/server.mjs search "\"key term\" more words"` |
 
 Per-repo config: `.claude/skills/rule-sources.json` (the repo's rule files and

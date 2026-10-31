@@ -22,5 +22,10 @@ claude.ai > Settings > Capabilities > Skills > upload or create, and paste the
 - A skill is a mature method only: it has been used on real work at least once.
 - Values a product owns (palette, fonts, music picks, names) are never written
   here; the skill says "the product's rules win".
-- After any change: `node tools/skill-combos.mjs` must print `ok` for every set,
-  then `node tools/skill-combos.mjs --lock`.
+- Skills keep changing. Every change bumps the skill's `Version` line (minor for a
+  rule added or changed, major when its job or steps change) and adds a row to
+  `CHANGELOG.md` saying whether account copies need re-pasting.
+- After any change: `node tools/skill-combos.mjs` and `node tools/skill-versions.mjs`
+  must both pass, then `node tools/skill-combos.mjs --lock`.
+- `node tools/skill-versions.mjs --since <last pasted ref>` lists which skills to
+  re-paste into claude.ai.
