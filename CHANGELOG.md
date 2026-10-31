@@ -11,7 +11,8 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
-| 2026-10-31 | film-quality-gate, video-storyboard | 1.5, 1.7 | Elias's call: a new angle while the same move continues is allowed; re-crops, zooms of the same frame and same-frame time skips stay banned | LanguageApp, Prello |
+| 2026-10-31 | film-quality-gate | 1.5 | Elias's call: a new angle while the same move continues is allowed; re-crops, zooms of the same frame and same-frame time skips stay banned | LanguageApp, Prello |
+| 2026-10-31 | video-storyboard | 1.7 | Elias's call: a new angle while the same move continues is allowed; re-crops, zooms of the same frame and same-frame time skips stay banned | LanguageApp, Prello |
 | 2026-10-31 | sync tool | - | Runs the source's newer copy of itself first, so a tool added in an update installs on the first run (found when video-refs needed two runs) | LanguageApp, Prello |
 | 2026-10-31 | review-picker | 1.0 | New: every item has numbered options, a recommendation, "Neither" and a short comment box; marks copy out as text; read past feedback first; options shown at real quality | LanguageApp, Prello |
 | 2026-10-31 | video-storyboard | 1.6 | Read past feedback first and plan more; "sound" for a reaction means a person's voice; close to real, never kid-like; name the quality tier | LanguageApp, Prello |
