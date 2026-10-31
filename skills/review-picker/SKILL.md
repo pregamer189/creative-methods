@@ -5,7 +5,7 @@ description: Use when making any page or message where a person picks between op
 
 # Review picker
 
-Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.2 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 A picker exists to get a clear answer fast. The owner rejected pickers that gave
 no way to say "neither", no room for a short comment, and options that made no
@@ -40,14 +40,25 @@ is not shown.
 - **Answered questions go away.** When the person comes back, show only what is still
   unanswered, with one key to bring the answered ones back. Never ask again what they
   already answered.
-- A **"Copy my marks"** key puts every answer on the clipboard as plain text, one
+- **Answers save as you go, with no pasting** (the method that worked, 2026-10-31).
+  The page declares its host's shared store (on a Claude Artifact, the `db`
+  capability). Each answer is its own document, written about 0.5 s after the last
+  change: `db.doc("marks/<item id>").set({ pick, note })`. On load the page reads
+  `db.collection("marks").get()`, repaints the answers and hides the answered
+  items. A status line says "Answers save as you go"; if the store is missing it
+  says "Use Copy to send these".
+- **The person only says "done" in chat.** The agent then reads the marks itself
+  (on an Artifact: ArtifactData list, collection "marks") and never asks for a paste.
+- A **"Copy my marks"** key stays as the backup: every answer as plain text, one
   line per item, for example:
   ```
   1: 2
   2: Neither - looks like a kids app
   3: 1 - but warmer
   ```
-  The person pastes it into chat. Never depend on browser storage for the answers.
+  Browser storage (localStorage) is only a convenience, never where answers live.
+- **Never put words in the person's mouth.** Any "you said" line quotes their exact
+  words and links the message they came from. No quote and link, no "you said".
 - Show it at the quality you mean. A rough mock-up is not an option.
 
 ## Good and bad
@@ -57,9 +68,12 @@ is not shown.
   Neither. Comment: ____"
 - Bad: "6. Layer model B/C hybrid?" No sentence, a code, no example, no "Neither".
 - Bad: a page whose marks live only in that browser.
+- Bad: "Mostly short sounds instead of speech (your idea)" with no quote or link,
+  when the person never said it.
 
 ## Done when
 
 The feedback line is at the top, every item has numbered options, a
-recommendation, "Neither" and a comment box, the marks copy out as text, and every
-option is shown at the real quality.
+recommendation, "Neither" and a comment box, answers save to the shared store as
+they are made (with Copy as the backup), every "you said" is quoted and linked,
+and every option is shown at the real quality.

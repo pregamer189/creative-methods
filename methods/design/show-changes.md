@@ -38,9 +38,15 @@ He said: "I hate that I have no options to pick neither or make a short comment.
   ready to show; plan it further.
 - **Numbered options**, at most three per item, one marked as the recommendation
   with a one-line reason.
-- **Marks copy out as text.** A "Copy my marks" key puts every answer and comment on
-  the clipboard as plain lines (`3: Neither - too cartoonish`) the person can paste
-  into chat. Don't depend on browser storage; it can be empty or blocked.
+- **Answers save as you go.** Each answer is written to the page host's shared
+  store as its own document (`marks/<item id>`, about 0.5 s after the last change);
+  on return the page repaints answers and hides answered items. The person only
+  says "done" in chat and the agent reads the marks itself. "Copy my marks" (plain
+  lines like `3: Neither - too cartoonish`) stays as the backup; browser storage
+  is only a convenience. First used on two picker pages, 2026-10-31.
+- **Never put words in the person's mouth.** A "you said" line quotes their words
+  and links the message. (A picker once claimed Elias wanted "short sounds"; he
+  never said it.)
 - **Quality shown is the quality meant.** No rough mock-ups standing in for the
   final look; options are close to real, never kid-like or cartoonish.
 - Few items per page (about seven at most). Leftover questions wait for the next page.
