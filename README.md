@@ -12,8 +12,9 @@ scoring, paper search). Elias's projects read from it.
   name, content) stays in that product's repo. Methods here say "use the
   product's tokens"; they never name the values.
 - **Living, not static.** Skills and methods change often; each skill carries a
-  version and every change is logged in `CHANGELOG.md`, with a column saying
-  which pasted account skills need updating.
+  version and every change is logged in `CHANGELOG.md`, naming the repos that
+  must sync. Each product repo installs the skills with
+  `tools/sync-creative-methods.mjs` and checks itself at session start.
 - Start with `METHOD-MAP.md`: how the pieces fit and which one to use when.
 
 ## Layout
@@ -21,7 +22,7 @@ scoring, paper search). Elias's projects read from it.
 | Folder | What goes in it |
 |---|---|
 | `METHOD-MAP.md` | The mental model: the chain from idea to finished work, who wins when rules clash, which method when |
-| `skills/` | Ready-made skills in `SKILL.md` format, each complete on its own so it can be pasted into claude.ai Settings > Skills as an account skill. Index: `skills/README.md` |
+| `skills/` | Ready-made skills in `SKILL.md` format, each complete on its own; installed into product repos by `tools/sync-creative-methods.mjs`. Index: `skills/README.md` |
 | `methods/video/` | Story, storyboard, solo shooting, editing rules, coded films, the film quality gate |
 | `methods/motion-graphics/` | Motion craft for interfaces and for films |
 | `methods/emotion-graphics/` | Making a product feel alive and rewarding: reactions, sound, special moments |
@@ -29,13 +30,16 @@ scoring, paper search). Elias's projects read from it.
 | `methods/research/` | Idea scoring, paper search, learning from great references |
 | `methods/skills/` | How to audit, combine and write skills so they don't contradict each other |
 | `tools/` | Scripts the methods use: `skill-rules.mjs`, `skill-combos.mjs`, `papers-mcp/`. This is the canonical copy; product repos copy from here |
+| `methods/branding/` | Brand knowledge base template |
+| `SOURCES.md` | Every idea and source behind the methods, mapped to the file that uses it |
 | `references/` | Tools, kits and libraries worth studying |
 | `.claude/skills/` | This repo's self-audit: `RULE-OWNERS.md`, `combos.json`, `rules.lock.json`. `node tools/skill-combos.mjs` proves the skills agree with the methods |
 
 ## How a project uses this
 
-1. Add `pregamer189/creative-methods` to the project's repositories (or paste
-   the skills from `skills/` into claude.ai account skills).
+1. Add `pregamer189/creative-methods` to the project's repositories and install
+   with `node ../creative-methods/tools/sync-creative-methods.mjs` from the
+   product repo's root. Add the session-start check (see `tools/README.md`).
 2. Before video, motion or design work, read the matching `methods/` file and
    load the matching skill.
 3. Put the product's own rules in its repo, and list them as the top authority

@@ -14,6 +14,12 @@ whether they sound good to the agent. Paste-ready version:
 | Good unusual ideas get flattened | The rail never drops an idea; it says what would make it stronger and keeps the unusual part |
 | Opinion leaks into the number | The owner's view is its own meter, shown next to the score |
 
+## Making ideas stronger
+
+Take a proven mechanism, ask what our unique capability changes about it, and aim
+it at a human feeling (I58). Never flatten an unusual idea into a generic one: the
+parts an agent wants to cut are often what sells (I6).
+
 ## The two meters
 
 **Outside meter** (each line 0-4, with a source): Evidence (research), User pull

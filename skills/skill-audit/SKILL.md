@@ -5,7 +5,7 @@ description: Use when adding, updating or combining skills in a repo, or when tw
 
 # Skill audit
 
-Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Skills from different places contradict each other, and an agent follows
 whichever it read last. This skill makes one owner per rule and proves it.
@@ -37,6 +37,15 @@ whichever it read last. This skill makes one owner per rule and proves it.
    fails on a missing skill, a shared topic not in "Reviewed topics", or a skill
    whose rules changed since review.
 6. **Lock.** `node scripts/skill-combos.mjs --lock` after reviewing.
+
+## Choosing skills
+
+- Few, sharp skills beat many: every loaded description costs context and invites
+  wrong picks.
+- Pick by proven results (testimonials, shown output), not likes or hype.
+- When output goes wrong, find the rule that steered it and fix that skill.
+- One lead skill per kind of work names which skills run and in what order,
+  written after one real piece of work proved the order.
 
 ## Writing a new skill
 

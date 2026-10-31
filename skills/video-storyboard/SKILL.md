@@ -5,7 +5,7 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
-Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Plan the whole film on one page before anything is built, so nothing is
 improvised and every note can point at one shot.
@@ -24,6 +24,13 @@ improvised and every note can point at one shot.
 - **Music first.** Measure the first downbeat and bar length; shot times sit on bars.
 - **Every visual event has a sound.**
 - **Every claim is true on a real screen today.**
+- **Sell the value the viewer gets**, and name the viewer's motive and the one
+  behaviour principle the film uses. No guilt, no fake urgency.
+- **Write for this product's audience and voice**, never another product's.
+- **Made to be quoted:** show a specific input → result → what was fixed, so a
+  stranger has something to add. Judge by watch time, shares, saves and trials,
+  never views alone.
+- With a voiceover, short on-screen key lines carry it muted; don't subtitle every word.
 - Learn from great references by their reasons (pacing, reveal, what viewers said
   they loved), never by copying shots.
 - The product's own rules (name, palette, fonts, banned music, what may be
@@ -38,6 +45,8 @@ improvised and every note can point at one shot.
 | One-take demo | A real task start to finish | Proof |
 | Maker story | Why, one honest moment, what's next | Build in public |
 | Side by side | Same task two ways | Comparison |
+| Voiceover value film | Designed voice + distinct music build to the value | Product hype |
+| Animated story | A drawn or cut-out world tells one idea | How it works |
 
 ## Template
 
@@ -51,6 +60,8 @@ improvised and every note can point at one shot.
 **Look:** the product's tokens (two main colours); flat fills, no gradients
 **Music:** tempo, mood, track; first downbeat at __ s, bar = __ s
 **Score:** outside __ · owner: like / unsure / dislike
+**Viewer motive and principle:** e.g. "wants to understand what they watch; before and after"
+**Measure at 48 h and 7 d:** watch time, shares, saves, trials
 
 ## Shots
 | # | Time (bars) | Shot (wide / close / action / screen) | Move | What happens | Text or voice | Sound | Cut out (axis, direction, what carries the eye) |

@@ -27,7 +27,11 @@ idea ─► score ─► research ─► plan ─► build with skills ─► ga
 | Interface motion, press feedback, sound | `methods/motion-graphics/ui-motion.md` | `motion-and-feedback` |
 | Make it feel alive and rewarding | `methods/emotion-graphics/README.md` | |
 | Visual rules | `methods/design/` | |
+| Show a change for review | `methods/design/show-changes.md` | |
+| Brand knowledge base | `methods/branding/brand-kb.md` | |
 | Keep skills from contradicting each other | `methods/skills/skill-audit.md` | `skill-audit` |
+
+Every idea and source behind these methods, with where it went: `SOURCES.md`.
 
 ## Who wins when rules clash
 

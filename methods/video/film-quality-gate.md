@@ -45,7 +45,7 @@ moonb.io/blog/product-launch-video, postfa.st/sizes/x/video) · [E] Elias.
 | 3.2 | Pause anywhere: something meaningful is mid-flight. No idle wobble, breathe or float | [MD] |
 | 3.3 | A 0.3-0.75 s stillness before each result lands | [MD] |
 | 3.4 | Two or three transition types, repeated; never a crossfade | [MD] |
-| 3.5 | No same-scene cuts, no punch-in zooms on the same frame, no shake effects (`editing-rules.md`) | [E I16] |
+| 3.5 | No same-scene cuts, no punch-in zooms, bounce or shake on the same frame (`editing-rules.md`) | [E I16] |
 | 3.6 | Text is high contrast, inside the safe area, held long enough to read (at least 1.8 s; about letters / 15 + 1.5 s) | [LO §7] |
 | 3.7 | Key subjects fill at least a third of the frame height; nothing important leaves the frame | [LO §8] |
 | 3.8 | None of these: subject too small or too dark, colour on the same colour, captions over the subject, blank frames inside transitions, gradient or glow filler | [LO §10] [E] |
@@ -64,7 +64,7 @@ moonb.io/blog/product-launch-video, postfa.st/sizes/x/video) · [E] Elias.
 
 | # | Check | Source |
 |---|---|---|
-| 5.1 | Muted, the first 2 s alone make you stop, and the product is clear after one watch (feeds autoplay muted) | [FC] [X] |
+| 5.1 | Muted, the first 2 s alone make you stop, and the product is clear after one watch (feeds autoplay muted). Short on-screen key lines carry it; a voiceover-led film doesn't subtitle every word (I36) | [FC] [X] [E] |
 | 5.2 | Watch three times: full attention, muted on a phone, at 1.5x. Cut anything that drags at 1.5x | [FC] |
 | 5.3 | The ending is one clear action or the product name, landing on the final hit | [X] |
 | 5.4 | One outside eye (a person, or the film side by side with a reference it should match) | [E I14] |

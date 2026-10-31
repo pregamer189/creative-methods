@@ -5,7 +5,7 @@ description: Use before showing any finished film or video to a person. Checks t
 
 # Film quality gate
 
-Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Same-model checks share the maker's blind spots, so this gate uses only facts a
 command can measure, looks at named frames, and one outside eye. Run in order.
@@ -38,7 +38,7 @@ Grab stills at every cut -0.1 s and +0.2 s and at shot midpoints
 - [ ] Pause anywhere: something meaningful is mid-flight; no idle wobble or float.
 - [ ] 0.3-0.75 s of stillness before each result lands.
 - [ ] Two or three transition types, repeated; never a crossfade.
-- [ ] No same-scene cuts: never cut back into the same image at another zoom or crop; cut only on a new action. No punch-in zooms or shake.
+- [ ] No same-scene cuts: never cut back into the same image at another zoom or crop; cut only on a new action. No punch-in zooms, bounce or shake.
 - [ ] Text is high contrast, inside the safe area, held at least 1.8 s (letters / 15 + 1.5 s).
 - [ ] Key subjects fill at least a third of the frame height.
 - [ ] None of: subject too small or dark, colour on the same colour, captions over the subject, blank frames, gradient or glow filler.
@@ -53,7 +53,7 @@ Grab stills at every cut -0.1 s and +0.2 s and at shot midpoints
 
 ## 5. Watch tests
 
-- [ ] Muted, the first 2 s make you stop, and the product is clear after one watch.
+- [ ] Muted, the first 2 s make you stop, and the product is clear after one watch. Short on-screen key lines carry it; when a voiceover leads, don't subtitle every word.
 - [ ] Watched three times: full attention, muted on a phone, at 1.5x. Cut what drags at 1.5x.
 - [ ] Ends on one clear action or the product name, on the final hit.
 - [ ] One outside eye: a person, or side by side with a reference it should match.

@@ -1,7 +1,8 @@
 # Skills
 
-Each skill here is complete on its own, so it works when pasted into claude.ai as
-an account skill (an account skill can't open repo files). The method behind each
+Each skill here is complete on its own. They are **installed into each product
+repo** (`.claude/skills/<name>/`) by `tools/sync-creative-methods.mjs`, so sessions
+load them themselves (Elias, 2026-10-31: no pasting into his account). The method behind each
 one, with reasons and sources, is in `methods/`.
 
 | Skill | Use when | Method |
@@ -12,10 +13,12 @@ one, with reasons and sources, is in `methods/`.
 | `idea-scorecard` | Weighing ideas on their merits, blind, with the owner's view kept apart | `methods/research/idea-rail.md` |
 | `skill-audit` | Adding, updating or combining skills; when two skills disagree | `methods/skills/skill-audit.md` |
 
-## Add one to your account
+## Installing in a repo
 
-claude.ai > Settings > Capabilities > Skills > upload or create, and paste the
-`SKILL.md`. In a repo, copy the folder into `.claude/skills/` instead.
+From the repo root, with creative-methods cloned beside it:
+`node ../creative-methods/tools/sync-creative-methods.mjs` the first time, then
+`node scripts/sync-creative-methods.mjs`. A session-start hook runs `--check` and
+flags the repo when it is behind. Never edit an installed copy; change it here.
 
 ## Rules for this folder
 
@@ -24,8 +27,8 @@ claude.ai > Settings > Capabilities > Skills > upload or create, and paste the
   here; the skill says "the product's rules win".
 - Skills keep changing. Every change bumps the skill's `Version` line (minor for a
   rule added or changed, major when its job or steps change) and adds a row to
-  `CHANGELOG.md` saying whether account copies need re-pasting.
+  `CHANGELOG.md` naming the repos that must sync.
 - After any change: `node tools/skill-combos.mjs` and `node tools/skill-versions.mjs`
   must both pass, then `node tools/skill-combos.mjs --lock`.
-- `node tools/skill-versions.mjs --since <last pasted ref>` lists which skills to
-  re-paste into claude.ai.
+- `node tools/skill-versions.mjs --since <ref>` lists which skills changed, then
+  sync LanguageApp and Prello.

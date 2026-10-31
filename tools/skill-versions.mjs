@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Checks that every skill in skills/ has a "Version x.y" line and that CHANGELOG.md
 // has a row for that skill at that version. Run before every commit that touches
-// a skill: node tools/skill-versions.mjs   (prints what to re-paste with --since <git ref>)
+// a skill: node tools/skill-versions.mjs   (--since <git ref> lists skills the product repos must sync)
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 
@@ -21,6 +21,6 @@ const i = process.argv.indexOf('--since');
 if (i > 0) {
   const changed = execSync(`git diff --name-only ${process.argv[i + 1]} -- skills`, { encoding: 'utf8' })
     .split('\n').map((p) => p.match(/^skills\/([^/]+)\/SKILL\.md$/)?.[1]).filter(Boolean);
-  console.log(changed.length ? `Re-paste into claude.ai: ${changed.join(', ')}` : 'Nothing to re-paste.');
+  console.log(changed.length ? `Sync into LanguageApp and Prello: ${changed.join(', ')}` : 'Nothing to sync.');
 }
 process.exit(fails ? 1 : 0);

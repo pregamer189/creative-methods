@@ -12,7 +12,7 @@ for breaking the first one, so treat it as a gate (checked in
   Cuts that land on motion or a new event go unnoticed (edit blindness, Smith and
   Henderson 2008, doi:10.16910/jemr.2.2.6); a jump inside the same scene reads
   as a glitch.
-- **No jump effects:** no punch-in zooms on the same frame, no shake, no
+- **No jump effects:** no punch-in zooms, bounce or shake on the same frame, no
   "zoomed-in cut" to fake energy (Elias, I16, 2026-10-26).
 - Two or three transition types per film, repeated; never a crossfade.
 

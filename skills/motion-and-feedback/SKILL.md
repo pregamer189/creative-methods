@@ -5,7 +5,7 @@ description: Use when adding animation, press feedback, haptics, sound effects o
 
 # Motion and feedback
 
-Version 1.0 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Quiet at rest, instant on touch, one moment per screen. The product's tokens and
 rules win over the values here; use these when it has none.
@@ -52,16 +52,23 @@ Before building a moment, fill this sheet:
 | Field | Example |
 |---|---|
 | Trigger | Finished today's session |
-| Feeling | Proud, a little playful |
+| Feeling | Proud, quietly delighted |
 | Visual cue | Progress object moves up one step with a small spring |
 | Sound | Rising three-note chime, < 600 ms |
 | Haptic | Success |
 | Scale by outcome | Great: full move + chime. Light day: half move, softer chime |
-| Never | A sad sound, a loss animation, a guilt line |
+| Never | A discouraging sound, a loss animation, a guilt line, a sad icon |
 | Reduced motion | State swaps, chime still plays |
 
-- Always upbeat, even on a light day. No guilt, fear or scary countdowns.
+- Always ends upbeat, even on a light day. A character may give a brief gentle
+  "oops" (small non-voice sound or look) to a miss, never discouraging, resolving
+  into encouragement in the same moment. No guilt, fear or scary countdowns.
+- Premium, never playful-looking or childish: brief moments, real craft.
+- Delight never costs task time: no moment blocks the next action; extras can be
+  turned off without losing anything else.
 - Tiny living details react to actions; they don't idle-loop for attention.
+- The whole space may zoom or shift on a real change of place or level, never as
+  decoration.
 - Rare things stay rare: milestones and easter eggs only.
 
 ## AI tells to avoid

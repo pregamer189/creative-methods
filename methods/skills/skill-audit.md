@@ -56,3 +56,17 @@ and proved by a script. Paste-ready version: `skills/skill-audit/SKILL.md`.
 
 Imported skills: read every file before loading; keep only the parts the work
 uses; never let one override the repo's rules (rank 5).
+
+## Choosing and keeping skills (Elias, I32, I37, I12)
+
+- **Few, sharp, own skills** that distil the best sources beat many installed
+  ones. Every description loaded costs context and raises the chance of a wrong
+  pick.
+- **Pick by proven results:** testimonials, reactions, views and shown output of
+  the skill or tool, not likes or hype. Note the evidence when adding one.
+- **Update on a miss.** When output goes wrong, find which rule steered it and fix
+  the skill; that is how drift is stopped (the early-good, later-bad film drift,
+  I12). The fingerprints in `rules.lock.json` make silent changes visible.
+- **One lead skill per kind of work** names which skills run and in what order
+  (like a plan-review chain). Write it only after one real piece of work has been
+  made with those skills, so the order is proven, not guessed.
