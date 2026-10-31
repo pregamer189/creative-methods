@@ -5,7 +5,7 @@ description: Use before showing any finished film or video to a person. Checks t
 
 # Film quality gate
 
-Version 1.4 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.5 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Same-model checks share the maker's blind spots, so this gate uses only facts a
 command can measure, looks at named frames, and one outside eye. Run in order.
@@ -39,7 +39,7 @@ Grab stills at every cut -0.1 s and +0.2 s and at shot midpoints
 - [ ] Pause anywhere: something meaningful is mid-flight, or a held frame chosen in the storyboard; no idle wobble or float.
 - [ ] 0.3-0.75 s of stillness before each result lands.
 - [ ] Two or three transition types, repeated; never a crossfade.
-- [ ] No same-scene cuts: never cut back into the same image at another zoom or crop; cut only on a new action. No punch-in zooms, bounce or shake.
+- [ ] No same-scene cuts: never cut back into the same image at another zoom or crop; cut only on a new action, or to a new angle while the same move continues. No punch-in zooms, bounce, shake or same-frame time skips.
 - [ ] Text is high contrast, inside the safe area, held at least 1.8 s (letters / 15 + 1.5 s).
 - [ ] Key subjects fill at least a third of the frame height.
 - [ ] None of: subject too small or dark, colour on the same colour, captions over the subject, blank frames, gradient or glow filler.

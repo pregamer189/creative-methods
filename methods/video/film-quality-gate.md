@@ -47,7 +47,7 @@ Added 2026-10-31: [BM] Ben Marriott · [ST] Satori · [ML] Matt Loui · [ND] Now
 | 3.2 | Pause anywhere: something meaningful is mid-flight, or a held frame chosen in the storyboard. No idle wobble, breathe or float | [MD] [BM] |
 | 3.3 | A 0.3-0.75 s stillness before each result lands | [MD] |
 | 3.4 | Two or three transition types, repeated; never a crossfade | [MD] |
-| 3.5 | No same-scene cuts, no punch-in zooms, bounce or shake on the same frame (`editing-rules.md`) | [E I16] |
+| 3.5 | No same-scene cuts, no punch-in zooms, bounce or shake on the same frame. A new angle while the same move continues is allowed (`editing-rules.md`) | [E I16] |
 | 3.6 | Text is high contrast, inside the safe area, held long enough to read (at least 1.8 s; about letters / 15 + 1.5 s) | [LO §7] |
 | 3.7 | Key subjects fill at least a third of the frame height; nothing important leaves the frame | [LO §8] |
 | 3.8 | None of these: subject too small or too dark, colour on the same colour, captions over the subject, blank frames inside transitions, gradient or glow filler | [LO §10] [E] |

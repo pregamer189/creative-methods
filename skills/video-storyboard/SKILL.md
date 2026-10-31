@@ -5,7 +5,7 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
-Version 1.6 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.7 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Plan the whole film on one page before anything is built, so nothing is
 improvised and every note can point at one shot. Plan much more than feels
@@ -36,7 +36,8 @@ because of them.
   product's approved stand-in such as abstract coded screens), or text that lands.
   No logo first, no fade from black.
 - **One image = one shot = one move.** A new shot only on a new action. Never cut
-  back into the same image at another zoom or crop.
+  back into the same image at another zoom or crop. A new angle while the same
+  move continues is allowed.
 - **Music first.** Measure the first downbeat and bar length; shot times sit on bars.
 - **Every event that matters has a sound, or a chosen silence.**
   When the owner says "sound" for a reaction or a character, they mean a person's

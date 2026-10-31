@@ -33,10 +33,9 @@ Pick the cut the moment needs; a film doesn't need them all (Tim Runia, 740k vie
 | **Shot sequence** | A hook that also moves the story | Several angles of one action, same length each, flowing into each other in motion (Andrew) |
 | **J and L** | Hides a cut with sound | `sound.md` |
 
-**Open for Elias:** action cuts and shot sequences change angle within one action. The
-hard rule above bans cutting back into the same *image* at another zoom or crop. Until
-he picks, the stricter reading holds: a new angle only with continuing motion, never a
-re-crop of the same frame. A same-frame time skip (Runia's jump cut) stays out.
+**Settled by Elias, 2026-10-31:** a cut to a new angle while the same move continues is
+allowed (action cuts, shot sequences). Re-cropping or zooming the same frame stays
+banned, and so does a same-frame time skip (Runia's jump cut).
 
 ## Transitions must earn it
 
