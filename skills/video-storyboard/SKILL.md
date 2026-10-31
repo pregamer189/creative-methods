@@ -5,10 +5,15 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
-Version 1.5 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.6 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Plan the whole film on one page before anything is built, so nothing is
-improvised and every note can point at one shot.
+improvised and every note can point at one shot. Plan much more than feels
+needed before building anything (the owner, 2026-10-31).
+
+**First, read the feedback.** Find the owner's past marks and comments on earlier
+films and plans, and list in two or three lines what this film does differently
+because of them.
 
 ## Rules
 
@@ -34,6 +39,11 @@ improvised and every note can point at one shot.
   back into the same image at another zoom or crop.
 - **Music first.** Measure the first downbeat and bar length; shot times sit on bars.
 - **Every event that matters has a sound, or a chosen silence.**
+  When the owner says "sound" for a reaction or a character, they mean a person's
+  voice sound (a real "oh", "mm-hm", a laugh), never a random effect or a robot voice.
+- **Close to real, never kid-like.** No cartoon mascots, toy-like figures or
+  dress-up avatars. Characters only when the owner has picked a direction.
+- **Name the quality tier** the film aims at and what the next tier would add.
 - **Every claim is true of the real product today**, even when the film shows a
   coded stand-in instead of a capture.
 - **Sell the value the viewer gets**, and name the viewer's motive and the one
@@ -93,6 +103,8 @@ improvised and every note can point at one shot.
 Per shot: exists / to make / needs a yes before generating.
 
 ## Check before showing
+- [ ] Past feedback read; what changed is listed at the top
+- [ ] Close to real, never kid-like
 - [ ] Hook works muted in 2 s
 - [ ] One idea only
 - [ ] Every claim true today

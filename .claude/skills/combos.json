@@ -4,6 +4,7 @@
     { "name": "Plan and check a film", "task": "Storyboard a 35 s launch film, build it, gate it", "skills": ["video-storyboard", "film-quality-gate"] },
     { "name": "Interface moment", "task": "Add a celebration moment and tactile keys to a screen", "skills": ["motion-and-feedback"] },
     { "name": "Ideas and skills", "task": "Score a batch of ideas, then add a new skill for the winner", "skills": ["idea-scorecard", "skill-audit"] },
-    { "name": "Everything", "task": "A product film that shows an interface moment", "skills": ["video-storyboard", "film-quality-gate", "motion-and-feedback", "idea-scorecard", "skill-audit"] }
+    { "name": "Show picks", "task": "Show three interface moment options on a picker page", "skills": ["review-picker", "motion-and-feedback"] },
+    { "name": "Everything", "task": "A product film that shows an interface moment", "skills": ["video-storyboard", "film-quality-gate", "motion-and-feedback", "idea-scorecard", "skill-audit", "review-picker"] }
   ]
 }

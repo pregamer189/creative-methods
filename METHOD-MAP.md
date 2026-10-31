@@ -33,7 +33,7 @@ idea ─► score ─► research ─► plan ─► build with skills ─► ga
 | Interface motion, press feedback, sound | `methods/motion-graphics/ui-motion.md` | `motion-and-feedback` |
 | Make it feel alive and rewarding | `methods/emotion-graphics/README.md` | |
 | Visual rules | `methods/design/` | |
-| Show a change for review | `methods/design/show-changes.md` | |
+| Show a change for review, or a page of picks | `methods/design/show-changes.md` | `review-picker` |
 | Brand knowledge base | `methods/branding/brand-kb.md` | |
 | Keep skills from contradicting each other | `methods/skills/skill-audit.md` | `skill-audit` |
 
@@ -51,7 +51,7 @@ Every idea and source behind these methods, with where it went: `SOURCES.md`.
 Every product repo writes its settled clashes in `.claude/skills/RULE-OWNERS.md`
 and proves them with `tools/skill-combos.mjs`.
 
-## Five beliefs the methods share
+## Seven beliefs the methods share
 
 1. **One idea per piece, connected well.** Many ideas loosely joined is slop
    (I34). A film is a trust arc, not a pile of likeable things (I11).
@@ -62,5 +62,12 @@ and proves them with `tools/skill-combos.mjs`.
    ceiling (I17).
 4. **Same-model checks share blind spots** (I14). A gate is checkable facts and
    an outside eye, never "looks good to me".
-5. **Cheap first:** plans, sketches and prototypes before builds; high effort for
+5. **Plan much more before acting, and read the feedback first** (Elias,
+   2026-10-31). Before planning anything, read every earlier mark and comment on
+   that area; the plan says which feedback it answers.
+6. **Quality is raised in tiers.** For each piece, write what the next two tiers
+   up would look like (with a reference for each) and aim for the highest one
+   that's feasible. "Good enough" is not a tier; the current bar is "close to
+   real".
+7. **Cheap first:** plans, sketches and prototypes before builds; high effort for
    research and planning, low effort only for lookups (tested 2026-10-31).

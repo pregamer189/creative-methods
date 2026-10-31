@@ -5,7 +5,7 @@ description: Use before showing any finished film or video to a person. Checks t
 
 # Film quality gate
 
-Version 1.3 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.4 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Same-model checks share the maker's blind spots, so this gate uses only facts a
 command can measure, looks at named frames, and one outside eye. Run in order.
@@ -13,6 +13,7 @@ Any failure: fix and rerun. **A film that fails any check is not shown.**
 
 ## 1. Plan
 
+- [ ] The owner's past feedback on films was read, and each earlier complaint is fixed or answered.
 - [ ] One idea in one sentence; a logline with a maker, a goal and a turn.
 - [ ] It moves one trust step (curiosity, understanding, belief or action).
 - [ ] First 2 s show the product doing a real task: a real capture, or the product's approved stand-in (e.g. abstract coded screens) showing real behaviour. No logo first, no fade from black.
@@ -46,6 +47,7 @@ Grab stills at every cut -0.1 s and +0.2 s and at shot midpoints
 - [ ] A paused frame isn't only flat vector: texture was designed in from the start, with hard and soft edges; not a filter added last.
 - [ ] 2-3 named colours, an accent with one job; one element deliberately breaks the template.
 - [ ] Not everything moves: what moves is what matters most at that moment.
+- [ ] Close to real in every frame: no cartoonish, toy-like or kid-like figures, mascots or avatars.
 
 ## 4. Sound
 
@@ -56,6 +58,7 @@ Grab stills at every cut -0.1 s and +0.2 s and at shot midpoints
 - [ ] Big moves are layered low, mid and high; effects sit in the song's key; one sound family for the film.
 - [ ] No effect ends abruptly; heard on phone speakers and on headphones.
 - [ ] Voice spliced from several takes with pauses placed by hand, or recorded and retaken.
+- [ ] Reaction "sounds" from a character are a person's voice (a real "oh", "mm-hm"), never a random effect or a robot voice.
 
 ## 5. Watch tests
 

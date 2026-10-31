@@ -11,6 +11,11 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
+| 2026-10-31 | review-picker | 1.0 | New: every item has numbered options, a recommendation, "Neither" and a short comment box; marks copy out as text; read past feedback first; options shown at real quality | LanguageApp, Prello |
+| 2026-10-31 | video-storyboard | 1.6 | Read past feedback first and plan more; "sound" for a reaction means a person's voice; close to real, never kid-like; name the quality tier | LanguageApp, Prello |
+| 2026-10-31 | film-quality-gate | 1.4 | Past feedback checked; close to real in every frame; character reaction sounds are a person's voice | LanguageApp, Prello |
+| 2026-10-31 | motion-and-feedback | 1.3 | The gentle "oops" is a short human voice sound, never a beep; close to real, never kid-like; characters only once the owner picks a direction | LanguageApp, Prello |
+| 2026-10-31 | methods | - | Owner corrections: "sound" means a person's voice; close to real, never kid-like; quality raised in tiers; plan more and read feedback first; picker hard rules | - |
 | 2026-10-31 | video-storyboard | 1.5 | Choose carried or cut, carriers, screens as objects, words in the world, colour per chapter, what returns | LanguageApp, Prello |
 | 2026-10-31 | methods | - | `visual-grammar.md`: frame-by-frame study of 10 films with measured cuts, shot lengths, colours and voice pace; carried-before-cut in film motion | - |
 | 2026-10-31 | video-refs tools | - | `shots.py` (one frame per shot, colours), `voice_stats.py`, `music_stats.py`; note that downloads need a current yt-dlp | LanguageApp, Prello |

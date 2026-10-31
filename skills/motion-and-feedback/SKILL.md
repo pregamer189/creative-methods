@@ -5,7 +5,7 @@ description: Use when adding animation, press feedback, haptics, sound effects o
 
 # Motion and feedback
 
-Version 1.2 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.3 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Quiet at rest, instant on touch, one moment per screen. The product's tokens and
 rules win over the values here; use these when it has none.
@@ -67,9 +67,11 @@ Before building a moment, fill this sheet:
 | Reduced motion | State swaps, chime still plays |
 
 - Always ends upbeat, even on a light day. A character may give a brief gentle
-  "oops" (small non-voice sound or look) to a miss, never discouraging, resolving
+  "oops" to a miss: a short human voice sound (a real person's "oh", "mm-hm"), never
+  a beep, random effect or robot voice; or a look, never discouraging, resolving
   into encouragement in the same moment. No guilt, fear or scary countdowns.
-- Premium, never playful-looking or childish: brief moments, real craft.
+- Close to real, never kid-like: no dress-up avatars, cartoon mascots or toy-like
+  figures; characters, if any, look close to real. Brief moments, real craft.
 - Delight never costs task time: no moment blocks the next action; extras can be
   turned off without losing anything else.
 - Tiny living details react to actions; they don't idle-loop for attention.
@@ -78,7 +80,7 @@ Before building a moment, fill this sheet:
 - Rare things stay rare: milestones and easter eggs only. Predictable rewards plus
   controlled surprise (an occasional discovery), never guilt.
 - Premium is also the unglamorous parts: empty states, errors, loading, recovery.
-- Characters start from a human-drawn base; AI only for variations.
+- Characters start from a human-made base (close to real); AI only for variations.
 
 ## AI tells to avoid
 

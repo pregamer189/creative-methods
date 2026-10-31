@@ -43,7 +43,7 @@ cloud; see the bottom of this file).
 | I28 | Complexity woven into simple means | used | emotion graphics rule 9 |
 | I29 | Characters with memory | product; its "world is background" part used | emotion graphics rule 11 |
 | I30 | Grand but insanely high quality, never playful-looking | used | emotion graphics rules 10 and 11 |
-| I31 | Tutor with small non-voice sounds, mostly positive | used | emotion graphics rule 3 (gentle "oops" that resolves upbeat) |
+| I31 | Tutor with short reactions, mostly positive; "sound" = a person's voice sound (corrected by Elias 2026-10-31) | used | emotion graphics rule 3 (a short human voice "oops" that resolves upbeat) |
 | I32 | Pick skills and sources by proven results | used | skill-audit (choosing skills) |
 | I33 | Analyse great videos and what viewers said | used | reference-analysis |
 | I34 | Slop = ideas crammed in, poorly connected | used | storytelling, editing rules |

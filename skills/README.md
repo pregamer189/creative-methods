@@ -11,14 +11,15 @@ one, with reasons and sources, is in `methods/`.
 | `video-storyboard` | Planning a short film before building or shooting | `methods/video/storytelling.md`, `storyboard.md` |
 | `motion-and-feedback` | Adding animation, press feedback, haptics, sound or a celebration moment to an interface | `methods/motion-graphics/ui-motion.md`, `methods/emotion-graphics/README.md` |
 | `idea-scorecard` | Weighing ideas on their merits, blind, with the owner's view kept apart | `methods/research/idea-rail.md` |
+| `review-picker` | Making any page or message where a person picks between options | `methods/design/show-changes.md` (picker pages) |
 | `skill-audit` | Adding, updating or combining skills; when two skills disagree | `methods/skills/skill-audit.md` |
 
 ## Installing in a repo
 
 From the repo root, with creative-methods cloned beside it:
 `node ../creative-methods/tools/sync-creative-methods.mjs` the first time, then
-`node scripts/sync-creative-methods.mjs`. A session-start hook runs `--check` and
-flags the repo when it is behind. Never edit an installed copy; change it here.
+`node scripts/sync-creative-methods.mjs`. `node scripts/skill-combos.mjs` runs `--check`
+and fails when the repo is behind. Never edit an installed copy; change it here.
 
 ## Rules for this folder
 
