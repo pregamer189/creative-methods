@@ -19,6 +19,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, statSy
 import { join, dirname } from 'node:path';
 import { createHash } from 'node:crypto';
 import { execSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 
 const args = process.argv.slice(2);
 const flag = (n) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : undefined; };
@@ -37,6 +38,14 @@ const src = [flag('--from'), process.env.CREATIVE_METHODS_DIR, '../creative-meth
 if (!src) {
   console.log('creative-methods: not cloned in this session, so the shared skills could not be checked. ' +
     'Add pregamer189/creative-methods to the session, then run node scripts/sync-creative-methods.mjs --check.');
+  process.exit(0);
+}
+
+// If the source has a newer sync tool than the one running, run that one instead,
+// so a tool added in this update is installed on the first run.
+const srcTool = join(src, 'tools/sync-creative-methods.mjs');
+if (!CHECK && !process.env.CM_SYNC_REEXEC && readFileSync(srcTool, 'utf8') !== readFileSync(fileURLToPath(import.meta.url), 'utf8')) {
+  execSync(`node "${srcTool}" ${args.map((a) => JSON.stringify(a)).join(' ')}`, { stdio: 'inherit', env: { ...process.env, CM_SYNC_REEXEC: '1' } });
   process.exit(0);
 }
 
