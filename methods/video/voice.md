@@ -50,6 +50,14 @@ else (Gawx). For small rooms see `solo-shoot.md`.
 Voice before motion: it sets timing for animators (Kurzgesagt, Gawx on narrated
 films). A film led by music can add the voice later and trim to it (`editing-rules.md`).
 
+## The written voice
+
+To write in a person's voice (Jay Yang's reel, De50ZcNNFTe, ghostwriter for well-known
+founders): a **story bible** (upbringing, failures, dreams, everything), a **voice
+skill** (transcripts of their podcasts and videos, with the model analysing the patterns
+of how they speak), and an **anti-AI checklist** the writing is checked against. Use
+it for a personal brand; the person still reads every line aloud.
+
 ## Dubbing
 
 A finished film can be dubbed: export voice alone and music-plus-effects alone, dub the

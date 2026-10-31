@@ -70,6 +70,13 @@ videos, so it fits education and maker films better than cinema.)
 | Three chapters | Each a visual sequence paired with its own music | Andrew's closing advice |
 | Real voices of the masters | Short archive clips of people who felt the same | Ermia Ramez |
 
+## A series that opens a question
+
+"Day 41: packing my dad's lunch until he rates one a 10/10." One word, *until*, opens a
+gap that earns the follow as well as the watch: a rating sets an expectation for this
+film, and "until" for the whole series (Amelia Willingham's breakdown, De2nFEHx4Uy, 15M
+views on the original). The day count is also what Ermia's film ends on.
+
 ## Shapes that work
 
 | Shape | Beats | Good for |
