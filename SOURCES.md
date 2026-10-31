@@ -79,6 +79,22 @@ cloud; see the bottom of this file).
 | Prello film craft notes, motion doctrine, Lemo-Opuscar, launch-video research | Film gate, film motion, coded films workflow |
 | Emil Kowalski's animation guidance, Apple HIG | UI motion |
 
+## Reference videos and reels (read by the ideas thread, 2026-10-31)
+
+Full coverage table: the Language App project's `ideas/COVERAGE.md`.
+
+| Reference | Lesson | Used in |
+|---|---|---|
+| Satori, shape psychology (kcuQskI-nR0) | Circle safe, square stable, triangle and right arrow progress, hexagon connection; a tendency, not a law | storytelling |
+| Satori, design psychology (wBaTNvs8enw) | If the viewer has to think, the design failed | storytelling, video-storyboard |
+| Superwall, 500M downloads (Qh314MypshM) | Paywall and onboarding psychology (numbers are claims) | product (monetisation), not a creative method |
+| Tim Gabe, addictive apps (yBpv5rZoBjA) | Predictable rewards plus controlled surprise; discoveries; keep it guilt-free | emotion graphics rule 7, motion-and-feedback |
+| Chris Raroque, app feel (8mMH6Pq8qnE) | Page transitions, sub-step animation prompts, human-drawn mascot base, haptics, filled vs outline tabs, a motion budget | ui-motion, emotion graphics rule 14, motion-and-feedback |
+| Tim Gabe, premium apps (8EAYZe6y3I8) | Fix the unglamorous gaps, cohesion, recovery; comments called the video itself AI slop | emotion graphics rule 13, storytelling |
+| Hormozi reels (DeFATG6umBR, DfFZ_AYIMTO) | Hook, then the ask, then the why; one strong line; comment-bait buys reach, not trust | storytelling, video-storyboard |
+| themoenkcuts reel (DerhjNIolV8) | A hand-cover move hides a cut | editing rules |
+| Andrew, solo cinematic (vHfVI_4unYY) | Order of importance; sound is criticised hardest | storytelling, solo shoot |
+
 ## Not readable yet
 
 From the cloud, Instagram shows a login wall and YouTube shows a bot check, so
@@ -86,6 +102,7 @@ these are recorded but not yet analysed. They are read on Elias's Mac (captions
 and top comments saved as text), and each lesson is added to the matching method
 here:
 
-- 5 Instagram reels (I2's travel reel, I64, and the three in I69).
-- 18 YouTube references (I59, I61, I62, I65, I67, I70); list in the Language
-  App project's `ideas/sources/2026-10-29-video-references.md`.
+Still blocked after the ideas thread's pass (title only, or rate-limited):
+YouTube ylXeuDp_8XM, WFkGbyH24AY, p6aF5ma7BiM, Du2lkZ_cux8, nQKWYmrixCU,
+dJR7OpkEeBk, 9ypqs_2fAl8, pdLEHfkwgV8, 0mOLs315i04, fBfJMNS0MnQ, 8kQTKYgHI1E;
+Instagram De2nFEHx4Uy; and I2's travel reel (a product idea).

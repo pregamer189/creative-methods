@@ -15,6 +15,8 @@ for breaking the first one, so treat it as a gate (checked in
 - **No jump effects:** no punch-in zooms, bounce or shake on the same frame, no
   "zoomed-in cut" to fake energy (Elias, I16, 2026-10-26).
 - Two or three transition types per film, repeated; never a crossfade.
+- A physical move can hide a cut: a hand covering the lens, a body crossing frame,
+  an object passing close (themoenkcuts reel, 2026-10). It counts as a new action.
 
 ## What made earlier films fail (Elias, I16 and I34, 2026-10-26)
 

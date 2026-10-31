@@ -11,6 +11,9 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
+| 2026-10-31 | motion-and-feedback | 1.2 | Motion budget, sub-step animation prompts, predictable rewards plus controlled surprise, unglamorous parts, human-drawn character bases (from the reference videos read by the ideas thread) | LanguageApp, Prello |
+| 2026-10-31 | video-storyboard | 1.3 | Short-reel order (hook, ask, why), comment-bait buys reach not trust, show the quality you claim, no frame that makes the viewer think | LanguageApp, Prello |
+| 2026-10-31 | methods | - | Reference lessons folded in: shape psychology, Andrew's order of importance, hand-cover cut, sound criticised hardest | - |
 | 2026-10-31 | skill-combos tool | - | Fails when the installed shared skills are behind creative-methods | LanguageApp, Prello |
 | 2026-10-31 | film-quality-gate | 1.2 | Opening and claims accept a product's approved coded stand-in (Prello explainers use no real captures); vocals follow the product's picks per film type | LanguageApp, Prello |
 | 2026-10-31 | video-storyboard | 1.2 | Same stand-in rule; claims must be true of the real product | LanguageApp, Prello |

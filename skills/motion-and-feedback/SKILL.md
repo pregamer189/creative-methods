@@ -5,7 +5,7 @@ description: Use when adding animation, press feedback, haptics, sound effects o
 
 # Motion and feedback
 
-Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.2 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Quiet at rest, instant on touch, one moment per screen. The product's tokens and
 rules win over the values here; use these when it has none.
@@ -36,6 +36,12 @@ rules win over the values here; use these when it has none.
 - Animate `transform` and `opacity` only; no `transition: all`.
 - Restart a CSS animation by removing its class and re-adding it a frame later.
 - Reduced motion: keep the state change and the sound, drop the movement.
+
+## Motion budget
+
+- One per screen: how many things move at once and how far; too much causes motion sickness.
+- Page transitions may show where you went; active tabs switch filled vs outline.
+- Build a complex animation in sub-steps (enter, settle, react), one prompt each.
 
 ## Sound
 
@@ -69,7 +75,10 @@ Before building a moment, fill this sheet:
 - Tiny living details react to actions; they don't idle-loop for attention.
 - The whole space may zoom or shift on a real change of place or level, never as
   decoration.
-- Rare things stay rare: milestones and easter eggs only.
+- Rare things stay rare: milestones and easter eggs only. Predictable rewards plus
+  controlled surprise (an occasional discovery), never guilt.
+- Premium is also the unglamorous parts: empty states, errors, loading, recovery.
+- Characters start from a human-drawn base; AI only for variations.
 
 ## AI tells to avoid
 

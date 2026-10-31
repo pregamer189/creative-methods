@@ -43,6 +43,14 @@ Paste-ready version: `skills/motion-and-feedback/SKILL.md`.
   progress fill, a hold-to-confirm ring, a loop), never as a response to a tap.
 - No elastic overshoot on sheets and dialogs; springs are for keys and characters.
 
+## Motion budget
+
+Set one per screen: how many things may move at once and how far. Page
+transitions that show where you went help orientation; too much movement causes
+motion sickness (Chris Raroque, app feel, 2026). Active tabs change fill (filled vs
+outline), not just colour. When asking a model to build a complex animation, split
+it into sub-steps in the prompt (enter, settle, react) instead of one request.
+
 ## Craft checks
 
 - Animate `transform` and `opacity` only. No `transition: all`.

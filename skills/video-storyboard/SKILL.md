@@ -5,7 +5,7 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
-Version 1.2 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.3 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Plan the whole film on one page before anything is built, so nothing is
 improvised and every note can point at one shot.
@@ -33,6 +33,10 @@ improvised and every note can point at one shot.
   stranger has something to add. Judge by watch time, shares, saves and trials,
   never views alone.
 - With a voiceover, short on-screen key lines carry it muted; don't subtitle every word.
+- Short reels (under ~20 s): hook, then the ask, then the why. One strong line.
+  Comment-bait buys reach, not trust.
+- A film about quality must show that quality in every frame.
+- If the viewer has to think about how to read a frame, redesign it.
 - Learn from great references by their reasons (pacing, reveal, what viewers said
   they loved), never by copying shots.
 - The product's own rules (name, palette, fonts, banned music, what may be

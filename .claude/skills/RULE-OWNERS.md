@@ -21,6 +21,7 @@ In a product repo, the product's own rules outrank both (see `METHOD-MAP.md`).
 | Sad sounds | Earlier rule: never a sad sound. Elias's I31: a tutor can make small sounds (happy, sad, it went worse), mostly positive, never discouraging | Both, merged: a character may give a brief gentle "oops" to a miss that resolves into encouragement in the same moment; results and progress objects always end upbeat; nothing discouraging. A product rule can be stricter (Language App: the streak vehicle only ever sounds good) |
 | Game layer | I21 and I27 want small characters and easter eggs; I30 and store reviews: never playful-looking or "infantilising" | Both: delight is brief, rare and crafted, never childish, never costs task time, and can be turned off |
 | Subtitles | Film gate: feeds autoplay muted, so text carries the message; I36: voiceover films, not many subtitles | Both: short on-screen key lines carry it muted; a voiceover-led film doesn't subtitle every word |
+| Where the ask goes | Film gate: the ending is one clear action; Hormozi reels: hook, then the ask, then the why | Both, by length: short reels (under ~20 s) put the ask after the hook; longer films end on it |
 | Springs | `ui-motion`: springs on keys and characters; no overshoot on sheets and dialogs | One rule in both files: springs for keys, pops and characters; ease-out without overshoot for sheets and dialogs |
 
 No clash found on: gradients (all ban them, depth from tone steps and edges),

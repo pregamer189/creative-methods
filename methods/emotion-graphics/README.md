@@ -35,7 +35,9 @@ and hate, 2026-10).
    react to actions, they don't idle-loop for attention.
 7. **Rare things stay rare.** Special animations for real milestones (an even
    streak, a first, a new level) and a few easter eggs. If it happens every day it
-   is not special: scale it down.
+   is not special: scale it down. Mix predictable rewards (every finish gets its
+   moment) with controlled surprise (an occasional discovery, like Finch's bird
+   finds), always guilt-free (Tim Gabe, "addictive apps", 2026).
 8. **Sound through everything, quietly.** Whoosh, tick, chime, a world sound that
    fits the scene. Short, optimistic, never tiring; fully usable muted.
 9. **Simple surface, rich underneath.** The delight comes from craft in small
@@ -49,7 +51,12 @@ and hate, 2026-10).
 12. **Transitions can carry meaning.** The whole space may zoom or shift to show
     where the user is or how far they've come (I21), but only on a real change of
     place or level, never as decoration.
-13. **Respect the user's settings.** Reduced motion keeps the feeling through sound
+13. **Premium is the unglamorous parts too.** Empty states, errors, loading and the
+    way a mistake is recovered get the same care; cohesion across screens matters
+    more than one showpiece (Tim Gabe, "premium apps").
+14. **Characters from a human hand.** A drawn base for each character, with AI used
+    only for variations, keeps them from looking generated (Chris Raroque, app feel).
+15. **Respect the user's settings.** Reduced motion keeps the feeling through sound
     and a still change; sound off keeps it through motion.
 
 ## Moment sheet (copy per moment)

@@ -40,6 +40,8 @@ has room. Three takes per shot.
 
 ## Sound
 
+Viewers criticise sound hardest (Andrew); get it right before colour.
+
 - Voiceover in a small soft room (a wardrobe of clothes, under a duvet), phone
   about 15 cm from the mouth.
 - 20 s of room tone at every location, plus the real sounds (steps, a door, a cup).

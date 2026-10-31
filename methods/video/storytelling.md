@@ -18,7 +18,14 @@ What makes a short product or maker film work, before any shot is planned.
 
 ## A story needs three things
 
-(Andrew, "how to FILM Cinematic Videos SOLO", 2026)
+(Andrew, "how to FILM Cinematic Videos SOLO", 2026. His order of importance:
+story > shot list > shot order > light > edit > colour > thumbnail; viewers
+criticise sound hardest.)
+
+Design rule under all of it: if the viewer has to think about how to read the
+frame, the design failed (Satori, design psychology). Shapes carry meaning by
+tendency, not law: circles feel safe, squares stable, triangles and right arrows
+progress, hexagons connection (Satori, shape psychology).
 
 1. **Structure:** beginning, turn, end.
 2. **A subject:** the maker, the user, or the product.
@@ -52,9 +59,18 @@ yourself. Plan several angles (maker story, implications, a reaction, a defensib
 take, who gains and who loses), each for the people who'd care. Judge a film by
 watch time, shares, saves, trials and messages, never by views alone.
 
+## Order in a short reel
+
+For reels under about 20 s: hook first, the ask second, the why third (Hormozi
+reels, 2026-10). One strong line beats several. Comment-bait ("comment X") buys
+reach, not trust: use it only when trust isn't the goal. A film about quality must
+show that quality: viewers called a video on premium apps "AI slop" because it
+wasn't (Tim Gabe comments).
+
 ## The ending
 
 One clear action or the product name, on the music's last hit. No silent tail.
+(Short reels may put the ask after the hook instead; see above.)
 
 ## Learn from great films, don't copy them
 
