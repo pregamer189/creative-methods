@@ -7,13 +7,14 @@ from measuring the files. Take reasons from here, never shots (`../research/refe
 
 ## Measured
 
-Low-resolution copies, automatic scene detection. Dark or continuous films undercount
-cuts, so read these as rough. Voice pace comes from timed captions.
+Low-resolution copies, automatic scene detection at threshold 0.3, except the two
+marked (0.1, because white backgrounds and continuous camera moves hide cuts at 0.3,
+which reported only 2 and 3). Dark films undercount too, so read these as rough. Voice pace comes from timed captions.
 
 | Film | Length | Hard cuts | Median shot | Longest | Voice, words a minute | Speech covers |
 |---|---|---|---|---|---|---|
-| Apple, Hello MacBook Neo (36M views) | 3:50 | about 3 | continuous | continuous | - | - |
-| Kurzgesagt, 1,200 hours | 6:47 | about 4 | continuous | continuous | 160 | 98% |
+| Apple, Hello MacBook Neo (36M views) | 3:50 | about 50 (0.1) | about 4 s | - | - | - |
+| Kurzgesagt, 1,200 hours | 6:47 | about 13 (0.1) | about 30 s | - | 160 | 98% |
 | Barney Watts, creative | 6:08 | 170 | 1.2 s | 18 s | 164 | 91% |
 | Tinariwen, by Axel Digoix | 3:41 | 96 | 1.5 s | 22 s | - | - |
 | Ermia Ramez, watching to creating | 11:27 | 127 | 2.3 s | 49 s | 142 | 75% |
@@ -31,7 +32,7 @@ before making it a rule.
 
 | Pattern | What it looks like | Seen in | Why it works (inferred) |
 |---|---|---|---|
-| **Continuous or cut, choose a school** | Product and explainer greats barely cut: the world moves or a hand carries you. Maker films cut often, with long holds | Continuous: Apple, Kurzgesagt. Rhythmic: Barney, Tinariwen, Herman | No cut means nothing to hide and no jump to notice. It's also the opposite of the jump-cut films Elias disliked |
+| **Carried or cut, choose a school** | Explainers barely cut: the world moves (Kurzgesagt, one cut about every 30 s). Apple cuts every 4 s or so, but the white void and hands hide it. Maker films cut often and visibly, with long holds | Carried: Kurzgesagt, Apple. Rhythmic: Barney, Tinariwen, Herman | Nothing to notice between moments. It's the opposite of the jump-cut films Elias disliked |
 | **A physical carrier between moments** | A hand, a photo pulled through frame, a seat passing close, an object growing into the next scene | Apple's hands; RIMOWA's photograph and foreground pass | The eye follows the object, so the change of place feels earned |
 | **Screens as objects** | Interface shot close, tilted, in shallow focus, with a cursor in it. Or touched: a hand pinches an icon, stretches a window, and pieces of it fall | Ermia (upload screen through a lens), Herman, Apple | A flat screen recording looks like a recording. An object has weight, and you want to touch it |
 | **Words live in the world** | Written on a window, a notebook, a highlighted book page, a banner carried by birds, labels on a desk collage | Ermia, Kurzgesagt, Andrew | Text becomes part of the story rather than a layer on top |

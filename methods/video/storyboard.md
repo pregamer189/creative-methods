@@ -34,7 +34,7 @@ films and screen recordings. Paste-ready version: `skills/video-storyboard/SKILL
 **Voice:** which voice; takes per sentence
 **Sound family:** the one pack or palette
 **Finish:** 2-3 keywords; colours (dominant, secondary, accent); colour per chapter; texture; frame rate
-**School:** continuous or cut; the carrier between places; what returns (a home frame, a character)
+**School:** carried or cut; the carrier between places; what returns (a home frame, a character)
 **Score:** outside __ · owner: like / unsure / dislike
 
 ## Shots

@@ -11,8 +11,8 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
-| 2026-10-31 | video-storyboard | 1.5 | Choose continuous or cut, carriers, screens as objects, words in the world, colour per chapter, what returns | LanguageApp, Prello |
-| 2026-10-31 | methods | - | `visual-grammar.md`: frame-by-frame study of 10 films with measured cuts, shot lengths, colours and voice pace; continuous-before-cut in film motion | - |
+| 2026-10-31 | video-storyboard | 1.5 | Choose carried or cut, carriers, screens as objects, words in the world, colour per chapter, what returns | LanguageApp, Prello |
+| 2026-10-31 | methods | - | `visual-grammar.md`: frame-by-frame study of 10 films with measured cuts, shot lengths, colours and voice pace; carried-before-cut in film motion | - |
 | 2026-10-31 | video-refs tools | - | `shots.py` (one frame per shot, colours), `voice_stats.py`, `music_stats.py`; note that downloads need a current yt-dlp | LanguageApp, Prello |
 | 2026-10-31 | film-quality-gate | 1.3 | Texture, colour and "not everything moves" frame checks; sound checks for layers, key, one family, tails, phone and headphones, spliced voice; chosen stillness and chosen silence allowed; ducking may use an EQ pocket | LanguageApp, Prello |
 | 2026-10-31 | video-storyboard | 1.4 | Five lines, reality beats expectation, rising points, script written to the song, a reason per shot, stillness and a stretch without voice; template gains five lines, taste, voice, sound family, finish | LanguageApp, Prello |

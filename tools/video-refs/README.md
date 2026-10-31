@@ -15,7 +15,7 @@ Read and measure great films cheaply. Text and numbers, so any session can use t
 | `music_stats.py` | Rough tempo, loudness over time, and how often cuts land on an onset. Crude | `python3 -I tools/video-refs/music_stats.py film.mp4 out/shots.txt` |
 
 - Downloads need a current `yt-dlp` (`--js-runtimes node`); an old one gets HTTP 403. Instagram and Vimeo may refuse without a login.
-- Continuous films detect almost no cuts: use an even-time sheet instead (`ffmpeg -i film.mp4 -vf "fps=1/4,scale=240:-2,tile=8x13" -frames:v 1 even.jpg`).
+- White backgrounds and continuous films hide cuts at 0.3 (Apple's film reported 2 at 0.3, about 50 at 0.1). Check 0.1 as well, and use an even-time sheet (`ffmpeg -i film.mp4 -vf "fps=1/4,scale=240:-2,tile=8x13" -frames:v 1 even.jpg`).
 - Flat motion graphics barely register at the default scene threshold: pass `0.1` as the third argument to `measure.sh`, and check against the contact sheet.
 - Captions show only what is said. A wordless stretch shows up as a gap in the timestamps, which is itself a finding.
 - Captions and comments are copyrighted text: keep them on the machine, and write distilled notes into methods, never transcripts.
