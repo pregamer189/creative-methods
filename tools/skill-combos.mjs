@@ -9,11 +9,13 @@
 //   - one of its skills is missing;
 //   - two or more of its skills (or a skill and a repo rule file) give rules on a
 //     topic that RULE-OWNERS.md hasn't reviewed;
+//   - (repos using creative-methods) the installed shared skills are behind;
 //   - a skill's rules changed since the last review (its fingerprint in rules.lock.json
 //     differs), so a vendored update can't slip in a new clash unseen.
 
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
+import { spawnSync } from 'node:child_process';
 import { table, REPO_SOURCES, SKILL_DIRS } from './skill-rules.mjs';
 
 const OWNERS = '.claude/skills/RULE-OWNERS.md';
@@ -33,6 +35,12 @@ if (process.argv.includes('--lock')) {
 
 const lock = existsSync(LOCK) ? JSON.parse(readFileSync(LOCK, 'utf8')) : {};
 let fails = 0;
+// Repos that install the shared creative-methods skills also fail when those
+// copies are behind or were edited here (the fix is a sync, not a local edit).
+if (existsSync('.claude/skills/creative-methods.lock.json') && existsSync('scripts/sync-creative-methods.mjs')) {
+  const r = spawnSync(process.execPath, ['scripts/sync-creative-methods.mjs', '--check'], { encoding: 'utf8' });
+  if (r.status) { fails++; process.stdout.write('FAIL  ' + r.stdout); }
+}
 for (const c of combos) {
   const problems = [];
   const set = [...REPO_SOURCES, ...c.skills];
