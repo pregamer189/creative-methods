@@ -18,7 +18,7 @@ scale**, so the difference jumps out:
 
 - Real screenshots, never mock-ups of the change.
 - Same crop, same scale, same state in every row.
-- Two or three options at most; numbered so a note can say "2, but darker".
+- Two or three options at most; labelled (A, B, C) so a note can say "B, but darker".
 - Plain words; no codes the reader has to look up.
 - One question at the end, with a recommendation (a single change; a page of several picks follows the picker rules below).
 - The smallest version that answers the question; stop there.
@@ -40,7 +40,7 @@ He said: "I hate that I have no options to pick neither or make a short comment.
 - **Every option makes sense on its own.** One plain sentence on what the person
   would get. If an item can't be explained in one line without codes, it isn't
   ready to show; plan it further.
-- **Numbered options**, at most three per item, one marked as the recommendation
+- **Labelled options (A, B, C)**, at most three per item, one marked as the recommendation
   with a one-line reason.
 - **Answers save as you go.** Each answer is written to the page host's shared
   store as its own document (`marks/<item id>`, about 0.5 s after the last change);
@@ -53,4 +53,9 @@ He said: "I hate that I have no options to pick neither or make a short comment.
   never said it.)
 - **Quality shown is the quality meant.** No rough mock-ups standing in for the
   final look; options are close to real, never kid-like or cartoonish.
+- **A/B shape, like / dislike per part, a comment button per part, very little
+  text, a light and clear page** (Elias, 2026-10-31: "basically the A/B test ...
+  a comment button, because then I can transcribe the issue. And make a lot less
+  random text, because I won't read it ... everything is kind of dark").
+  The comment button opens a box with the cursor in it, ready for dictation.
 - Few items per page (about seven at most). Leftover questions wait for the next page.
