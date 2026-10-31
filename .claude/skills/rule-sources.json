@@ -1,0 +1,17 @@
+{
+  "$comment": "Self-audit of this repo: methods are the rule files, skills/ holds the paste-ready skills. Run: node tools/skill-combos.mjs",
+  "sources": [
+    ["film-gate-method", "methods/video/film-quality-gate.md"],
+    ["editing-rules", "methods/video/editing-rules.md"],
+    ["storytelling", "methods/video/storytelling.md"],
+    ["storyboard-method", "methods/video/storyboard.md"],
+    ["film-motion", "methods/motion-graphics/film-motion.md"],
+    ["ui-motion", "methods/motion-graphics/ui-motion.md"],
+    ["emotion-graphics", "methods/emotion-graphics/README.md"],
+    ["no-gradients", "methods/design/no-gradients.md"],
+    ["ai-tells", "methods/design/ai-tells.md"],
+    ["tactile-buttons", "methods/design/tactile-buttons.md"],
+    ["reference-analysis", "methods/research/reference-analysis.md"]
+  ],
+  "skillDirs": ["skills"]
+}

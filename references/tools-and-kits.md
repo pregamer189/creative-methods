@@ -1,7 +1,5 @@
 # Tools and kits
 
-> From Prello, Language App may revise.
-
 | Tool | Licence | What it is |
 |---|---|---|
 | HyperFrames (HeyGen) | Apache 2.0 | Agent-first HTML-to-video renderer with `check` and `snapshot` |
@@ -13,3 +11,7 @@
 
 Study libraries: [What Ships](https://whatships.com/) (launch videos), [ClaudeVideo](https://claudevideo.org/) (videos with prompts).
 Launch-video research: flowjam.com/blog/product-launch-video-examples-2026, moonb.io/blog/product-launch-video, postfa.st/sizes/x/video.
+
+Method tools in this repo (`tools/`): `skill-rules.mjs` and `skill-combos.mjs` (skill audit), `papers-mcp/` (free paper search, MCP and command line). See `tools/README.md`.
+
+Free scholarly APIs: ERIC (api.ies.ed.gov/eric), Europe PMC REST, Crossref (no key); OpenAlex and Semantic Scholar (free key each).
