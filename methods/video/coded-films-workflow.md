@@ -41,3 +41,39 @@ Movez's motion-design course on X (references, direction, springs, sound, critiq
 
 
 Motion rules for these films: `../motion-graphics/film-motion.md`. Storyboard first: `storyboard.md`. Gate: `film-quality-gate.md`.
+
+## The harness is most of it (2026-10)
+
+"The prompt is 10% of the outcome; the rest is the harness" (Margerie, 710k views).
+
+1. **House rules file** read on every run: render contract, the look (bans), sound,
+   the feedback loop. Ours is this repo.
+2. **Real references, always:** a screen recording, screenshots or a film to study.
+   They're why the result looks like real software (Matt Loui). Never a fake interface.
+3. **"Ask me as many questions as you need"** before starting. Skipped questions become
+   guesses (Matt Loui, whose first outputs were then usable).
+4. **Style guide from a reference:** extract frames every 0.5 s, write palette, type,
+   shot lengths, transition types, camera moves, texture, how text enters and leaves.
+   "Take the grammar, never its content, logos or characters."
+5. **Brand files plus a spec list** (buttons, loaders, checks, charts) so a look holds
+   across films. Same project, same chat: it already knows the taste.
+6. **Director's brief:** one-line film, references, tools, character bible if any, beat
+   sheet, on-screen text, workflow gates, critique loop, deliverables. Role: director,
+   animator, sound designer and render engineer.
+7. **Beat grid before code,** as a table to read and correct.
+8. **Sound in sync:** measure or synthesise the track, export `beats.json`, retime.
+   Then synthesise or place a sound per event.
+9. **Critique loop:** contact sheet; a pass that only critiques, citing scene and time;
+   rank fixes must, major, polish; fix, re-render. "Code that runs is not visually
+   correct." A score from the same model is a draft check, never the gate (I14).
+10. **Draft cheap, finish once:** low resolution and short renders until approved.
+11. **Finish in an editor when it helps:** the coded render is footage; sound, texture
+    and pacing can be added outside it (Matt Loui).
+
+Left to itself the model writes one HTML file rendered by Playwright and ffmpeg rather
+than using a framework, so name the framework you want (Margerie, citing Tommy Rossi).
+
+**Claude Motion** (launched 2026-10): an artifact type where a prompt becomes an
+animated explanation, editable by comments, exported to MP4. Reported in beta for Team
+and Enterprise (Anthropic's support page); limits unpublished. Fit for data stories and
+quick drafts; untested by us for film-grade work.

@@ -18,10 +18,15 @@ idea ─► score ─► research ─► plan ─► build with skills ─► ga
 |---|---|---|
 | Score an idea on its merits | `methods/research/idea-rail.md` | `idea-scorecard` |
 | Find evidence | `methods/research/paper-search.md` | (tool: `tools/papers-mcp`) |
-| Learn from great work | `methods/research/reference-analysis.md` | |
+| Bring taste in as an input | `methods/research/taste.md` | |
+| Learn from great work | `methods/research/reference-analysis.md`, `references/watch-list.md` | (tools: `tools/video-refs/`) |
+| How every part of a film gets made | `methods/video/production-foundation.md` | |
 | Plan a film | `methods/video/storytelling.md`, `storyboard.md` | `video-storyboard` |
 | Shoot it yourself | `methods/video/solo-shoot.md` | |
 | Build a coded film | `methods/video/coded-films-workflow.md`, `methods/motion-graphics/film-motion.md` | |
+| Sound and music | `methods/video/sound.md` | |
+| Voice | `methods/video/voice.md` | |
+| Finish a frame | `methods/design/texture-and-finish.md` | |
 | Cut it | `methods/video/editing-rules.md` | |
 | Check a film | `methods/video/film-quality-gate.md` | `film-quality-gate` |
 | Interface motion, press feedback, sound | `methods/motion-graphics/ui-motion.md` | `motion-and-feedback` |

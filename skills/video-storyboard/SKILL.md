@@ -5,7 +5,7 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
-Version 1.3 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.4 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Plan the whole film on one page before anything is built, so nothing is
 improvised and every note can point at one shot.
@@ -16,14 +16,21 @@ improvised and every note can point at one shot.
 - **A film is a trust arc**, not a pile of likeable things. Name the one step this
   film moves: curiosity → understanding → belief → action.
 - **A story** has structure (beginning, turn, end), a subject, and development
-  (something changes).
+  (something changes). Write **five lines** first: situation, desire, conflict, change,
+  result. Every shot connects back to one.
+- **Reality beats expectation:** the title's promise is met in the first line; second-
+  best point first, best second; a line between points that makes the next necessary.
+- **Write the script with the song playing**, so words land on the beat.
+- **Give each shot a reason you can say.** Nothing is there because it looks cool.
+- **Stillness against action:** plan held frames, a dip before the key line, and consider
+  a stretch without voice at the climax.
 - **First 2 s work muted:** the product doing something real (a real capture, or the
   product's approved stand-in such as abstract coded screens), or text that lands.
   No logo first, no fade from black.
 - **One image = one shot = one move.** A new shot only on a new action. Never cut
   back into the same image at another zoom or crop.
 - **Music first.** Measure the first downbeat and bar length; shot times sit on bars.
-- **Every visual event has a sound.**
+- **Every event that matters has a sound, or a chosen silence.**
 - **Every claim is true of the real product today**, even when the film shows a
   coded stand-in instead of a capture.
 - **Sell the value the viewer gets**, and name the viewer's motive and the one
@@ -63,8 +70,13 @@ improvised and every note can point at one shot.
 **Trust step:** curiosity / understanding / belief / action
 **Shape:**
 **Length and format:** e.g. 35 s, 9:16 master + 16:9
-**Look:** the product's tokens (two main colours); flat fills, no gradients
-**Music:** tempo, mood, track; first downbeat at __ s, bar = __ s
+**Look:** the product's tokens (two main colours); flat colours with designed texture, no gradients
+**Five lines:** situation / desire / conflict / change / result
+**Taste:** 2-3 items from the taste board, and what to take from each
+**Music:** tempo, mood, track; first downbeat at __ s, bar = __ s; dips at __
+**Voice:** which voice; takes per sentence
+**Sound family:** the one pack or palette
+**Finish:** 2-3 keywords; colours (dominant, secondary, accent); texture; frame rate
 **Score:** outside __ · owner: like / unsure / dislike
 **Viewer motive and principle:** e.g. "wants to understand what they watch; before and after"
 **Measure at 48 h and 7 d:** watch time, shares, saves, trials

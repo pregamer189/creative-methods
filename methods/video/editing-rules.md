@@ -18,6 +18,50 @@ for breaking the first one, so treat it as a gate (checked in
 - A physical move can hide a cut: a hand covering the lens, a body crossing frame,
   an object passing close (themoenkcuts reel, 2026-10). It counts as a new action.
 
+## The cut vocabulary
+
+Pick the cut the moment needs; a film doesn't need them all (Tim Runia, 740k views).
+
+| Cut | What it does | How |
+|---|---|---|
+| **Flow** | Invisible; shots dance | Motion in one direction, picked up in the same direction next shot. Up then sideways is friction |
+| **Action** | Smooth, alive | Cut in the middle of a movement; keep the subject in the same spot on screen; a few frames decide it |
+| **Match** | Says two things belong together | Same shape, position or motion across the cut. Match the eye position on people |
+| **Smash** | Resets attention | Sudden new scene, often with the sound cut too. Rare, or it stops being a surprise |
+| **Rhythm** | Sets the feeling | Fast cuts build, slow ones let it land. Vary it |
+| **Wide, medium, close** | Clarity | Where, what, feeling. Then break the order on purpose (start close, reveal late) |
+| **Shot sequence** | A hook that also moves the story | Several angles of one action, same length each, flowing into each other in motion (Andrew) |
+| **J and L** | Hides a cut with sound | `sound.md` |
+
+**Open for Elias:** action cuts and shot sequences change angle within one action. The
+hard rule above bans cutting back into the same *image* at another zoom or crop. Until
+he picks, the stricter reading holds: a new angle only with continuing motion, never a
+re-crop of the same frame. A same-frame time skip (Runia's jump cut) stays out.
+
+## Transitions must earn it
+
+- **Decoration is what makes them amateur.** Ask what it accomplishes: time passing,
+  world building, a connection. Otherwise cut it (Herman Huang, 590k views).
+- Motion in the shot beats a plugin: push through something, pull out to reveal.
+- A scale carry across a cut to a new scene (about 100 to 105%, easing hard into and out
+  of the cut) holds attention cheaply. Ben Marriott warns that even 5% can be too much.
+  This is not a punch-in: it never returns to the same image.
+- When every shot has a crazy transition, none stands out.
+
+## Pacing
+
+A film moves like a long-distance runner: speeds up, slows, speeds up (McKee, via
+StudioBinder). Fast passages need slow ones. Pace is set by more than cuts: scene
+length, shot length, how much the camera moves, pauses in performance, and music that
+speeds up or ticks (Jaws, Dunkirk). Fewer cuts can cover more story, as in Wolf of
+Wall Street's montage. In Hollywood film, neighbouring shots
+have grown more alike in length, approaching a pattern (1/f) that may help hold
+attention on the story (Cutting et al. 2010, doi:10.1177/0956797610361679): vary shot
+length gradually rather than at random. Measure yours: `tools/video-refs/measure.sh`.
+Fewest cuts can win: an editor in Andrew's comments won the most awards for the film
+with the fewest cuts and the longest takes. A static shot "goes with everything"
+(Gawx).
+
 ## What made earlier films fail (Elias, I16 and I34, 2026-10-26)
 
 Use this as a "never again" list when planning, not just when cutting.
@@ -42,10 +86,12 @@ Use this as a "never again" list when planning, not just when cutting.
 - Measure the track (first downbeat, bar length) before timing any cut. Beat
   detection alone misses the first downbeat.
 - Open on a strong section, end on the last hit, no silent tail. Duck 15-20 dB
-  under voice.
+  under voice, or less when an EQ pocket or removed stem makes room (`sound.md`).
 - A product may add its own picks and bans in its repo.
 
 ## Edit order (shot footage)
+
+The full order for any film: `production-foundation.md`.
 
 1. Music first: it sets pace and feeling.
 2. Best take of each shot, in story order.

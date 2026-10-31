@@ -34,6 +34,42 @@ progress, hexagons connection (Satori, shape psychology).
 Write what you know. The part of your own story you find boring is often what
 others find interesting.
 
+## Five lines first
+
+Situation, desire, conflict, change, result. If the film can't be told in five lines it
+isn't clear yet; every later choice must connect back to one of them, and they expand
+to ten or twenty without changing the core (Tim Runia, 1.3M views).
+
+## Writing it
+
+(Kallaway, by his own account a billion views; written for creators' short and long
+videos, so it fits education and maker films better than cinema.)
+
+- **Reality must beat expectation.** That's the mechanism under every rule here.
+- **Order:** idea and title, outline, intro, body, ending. The title's promise is met
+  in the first line (click confirmation).
+- **Outline first, and gut-check it:** is any point actually new? If not, research more
+  before writing. Summaries of what everyone knows lose people.
+- **Second-best point first, best second, then the rest.** Rising value builds a
+  pattern people stay for; falling value teaches them to leave.
+- **Each point:** what it is, how to use it, why it fits the whole.
+- **Re-hook between points:** a line that makes the next one necessary.
+- **End on a high note:** a real last lift, like the chocolate with the bill.
+- **Give every frame the "why":** memory forms where the viewer has something small to
+  resolve (Satori). Predict what they will feel a few seconds later, not just now.
+
+## Devices seen in the great ones
+
+| Device | How | Seen in |
+|---|---|---|
+| The film does what it teaches | Open with the technique, then name it: "what I just did right there", "you're still here, aren't you?" | Andrew, *Simple Editing* (1.1k likes on that line) |
+| A voice asks, the film answers | "But how?" lines pull the viewer to the next section | Andrew; Ermia Ramez as a whole conversation; Gawx's Q&A |
+| Words leave, picture carries | The climax runs on music and image | Ermia Ramez, 6:50-9:38 |
+| Show the way it was made | A process part with honest failures gets comments and trust | Andrew's behind the scenes; Kurzgesagt's meta video; Design Theory on visible effort |
+| A name for those who stayed | "Part of the 20%": viewers comment it, and it reads as belonging | Andrew's top comments. Use only when true, and only once |
+| Three chapters | Each a visual sequence paired with its own music | Andrew's closing advice |
+| Real voices of the masters | Short archive clips of people who felt the same | Ermia Ramez |
+
 ## Shapes that work
 
 | Shape | Beats | Good for |

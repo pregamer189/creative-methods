@@ -11,6 +11,10 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
+| 2026-10-31 | film-quality-gate | 1.3 | Texture, colour and "not everything moves" frame checks; sound checks for layers, key, one family, tails, phone and headphones, spliced voice; chosen stillness and chosen silence allowed; ducking may use an EQ pocket | LanguageApp, Prello |
+| 2026-10-31 | video-storyboard | 1.4 | Five lines, reality beats expectation, rising points, script written to the song, a reason per shot, stillness and a stretch without voice; template gains five lines, taste, voice, sound family, finish | LanguageApp, Prello |
+| 2026-10-31 | methods | - | Production foundation (every part: where from, how handled, how made, check); new `sound`, `voice`, `texture-and-finish`, `taste`; cut vocabulary, pacing and transitions in editing rules; film-motion rules 12-19; devices and script rules in storytelling; harness steps in coded films; `references/watch-list.md` | - |
+| 2026-10-31 | video-refs tools | - | `tools/video-refs/`: fetch captions and comments, search by real views, measure a film file; added to the sync tool | LanguageApp, Prello |
 | 2026-10-31 | motion-and-feedback | 1.2 | Motion budget, sub-step animation prompts, predictable rewards plus controlled surprise, unglamorous parts, human-drawn character bases (from the reference videos read by the ideas thread) | LanguageApp, Prello |
 | 2026-10-31 | video-storyboard | 1.3 | Short-reel order (hook, ask, why), comment-bait buys reach not trust, show the quality you claim, no frame that makes the viewer think | LanguageApp, Prello |
 | 2026-10-31 | methods | - | Reference lessons folded in: shape psychology, Andrew's order of importance, hand-cover cut, sound criticised hardest | - |

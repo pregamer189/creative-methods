@@ -15,6 +15,8 @@ rules, see `../motion-graphics/film-motion.md`) · [X] launch-video research
 2026-10-18 (flowjam.com/blog/product-launch-video-examples-2026,
 moonb.io/blog/product-launch-video, postfa.st/sizes/x/video) · [E] Elias.
 
+
+Added 2026-10-31: [BM] Ben Marriott · [ST] Satori · [ML] Matt Loui · [ND] Nowack · [HH] Herman Huang · [JN] Jacob Nordin · [IS] Isaac (`../../references/watch-list.md`).
 ## 1. The plan (before building)
 
 | # | Check | Source |
@@ -42,7 +44,7 @@ moonb.io/blog/product-launch-video, postfa.st/sizes/x/video) · [E] Elias.
 | # | Check | Source |
 |---|---|---|
 | 3.1 | Stills at every cut -0.1 s and +0.2 s and at each shot's midpoint: no layout breakage, no visible pop across a cut (position, scale, opacity and direction carry on) | [FC] |
-| 3.2 | Pause anywhere: something meaningful is mid-flight. No idle wobble, breathe or float | [MD] |
+| 3.2 | Pause anywhere: something meaningful is mid-flight, or a held frame chosen in the storyboard. No idle wobble, breathe or float | [MD] [BM] |
 | 3.3 | A 0.3-0.75 s stillness before each result lands | [MD] |
 | 3.4 | Two or three transition types, repeated; never a crossfade | [MD] |
 | 3.5 | No same-scene cuts, no punch-in zooms, bounce or shake on the same frame (`editing-rules.md`) | [E I16] |
@@ -50,15 +52,21 @@ moonb.io/blog/product-launch-video, postfa.st/sizes/x/video) · [E] Elias.
 | 3.7 | Key subjects fill at least a third of the frame height; nothing important leaves the frame | [LO §8] |
 | 3.8 | None of these: subject too small or too dark, colour on the same colour, captions over the subject, blank frames inside transitions, gradient or glow filler | [LO §10] [E] |
 | 3.9 | The first frame works as a thumbnail | [FC] |
+| 3.10 | A paused frame isn't only flat vector: texture was designed in, with hard and soft edges (`../design/texture-and-finish.md`) | [BM] |
+| 3.11 | 2-3 named colours, an accent with one job; one element deliberately breaks the template | [ST] [ML] |
+| 3.12 | Not everything moves: the moving thing is the most important thing at that moment | [ND] |
 
 ## 4. Sound
 
 | # | Check | Source |
 |---|---|---|
-| 4.1 | Every visual event has a sound (a whoosh, a tick, a land); a depicted button press gets no UI click if the product's film rules ban it | [FC] |
+| 4.1 | Every event that matters has a sound (a whoosh, a tick, a land) or a chosen silence; a depicted button press gets no UI click if the product's film rules ban it | [FC] [HH] |
 | 4.2 | Music opens on a strong, clean section and ends on the film's last hit, no silent tail; it is not on the product's banned list | [FC] [E] |
-| 4.3 | Music ducks 15-20 dB under any voice | [FC] |
-| 4.4 | At least one near-silence before the turn | [LO §6] |
+| 4.3 | Music ducks 15-20 dB under any voice, or less with an EQ pocket or a removed stem; the voice is always clear | [FC] [HH] |
+| 4.4 | At least one near-silence or low-pass dip before the turn | [LO §6] [HH] |
+| 4.5 | Big moves are layered low, mid and high; effects sit in the song's key; one sound family for the film (`sound.md`) | [HH] |
+| 4.6 | No effect ends abruptly (tail or reverb); heard on phone speakers and on headphones before anyone sees it | [ML] [JN] |
+| 4.7 | Voice spliced from takes and paused by hand, or recorded and retaken (`voice.md`) | [IS] |
 
 ## 5. Watch tests (last)
 

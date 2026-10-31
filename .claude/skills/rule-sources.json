@@ -11,7 +11,12 @@
     ["no-gradients", "methods/design/no-gradients.md"],
     ["ai-tells", "methods/design/ai-tells.md"],
     ["tactile-buttons", "methods/design/tactile-buttons.md"],
-    ["reference-analysis", "methods/research/reference-analysis.md"]
+    ["reference-analysis", "methods/research/reference-analysis.md"],
+    ["production-foundation", "methods/video/production-foundation.md"],
+    ["sound", "methods/video/sound.md"],
+    ["voice", "methods/video/voice.md"],
+    ["texture-and-finish", "methods/design/texture-and-finish.md"],
+    ["taste", "methods/research/taste.md"]
   ],
   "skillDirs": ["skills"]
 }

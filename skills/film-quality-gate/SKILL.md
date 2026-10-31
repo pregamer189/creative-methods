@@ -5,7 +5,7 @@ description: Use before showing any finished film or video to a person. Checks t
 
 # Film quality gate
 
-Version 1.2 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.3 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Same-model checks share the maker's blind spots, so this gate uses only facts a
 command can measure, looks at named frames, and one outside eye. Run in order.
@@ -35,7 +35,7 @@ ffprobe -v error -show_entries stream=codec_name,width,height -of csv=p=0 film.m
 Grab stills at every cut -0.1 s and +0.2 s and at shot midpoints
 (`ffmpeg -ss <t> -i film.mp4 -frames:v 1 f_<t>.png`), tile them, and look.
 - [ ] No layout breakage; no pop across a cut (position, scale, opacity, direction carry on).
-- [ ] Pause anywhere: something meaningful is mid-flight; no idle wobble or float.
+- [ ] Pause anywhere: something meaningful is mid-flight, or a held frame chosen in the storyboard; no idle wobble or float.
 - [ ] 0.3-0.75 s of stillness before each result lands.
 - [ ] Two or three transition types, repeated; never a crossfade.
 - [ ] No same-scene cuts: never cut back into the same image at another zoom or crop; cut only on a new action. No punch-in zooms, bounce or shake.
@@ -43,13 +43,19 @@ Grab stills at every cut -0.1 s and +0.2 s and at shot midpoints
 - [ ] Key subjects fill at least a third of the frame height.
 - [ ] None of: subject too small or dark, colour on the same colour, captions over the subject, blank frames, gradient or glow filler.
 - [ ] The first frame works as a thumbnail.
+- [ ] A paused frame isn't only flat vector: texture was designed in from the start, with hard and soft edges; not a filter added last.
+- [ ] 2-3 named colours, an accent with one job; one element deliberately breaks the template.
+- [ ] Not everything moves: what moves is what matters most at that moment.
 
 ## 4. Sound
 
-- [ ] Every visual event has a sound (no UI click on a depicted press if the product's film rules ban it).
+- [ ] Every event that matters has a sound or a chosen silence (no UI click on a depicted press if the product's film rules ban it).
 - [ ] Music opens on a strong section, ends on the last hit, no silent tail; not on the product's banned list; vocals or not as the product's picks say for this kind of film.
-- [ ] Music ducks 15-20 dB under voice.
-- [ ] One near-silence before the turn.
+- [ ] Music ducks 15-20 dB under voice, or less with an EQ pocket or a removed stem; the voice is always clear.
+- [ ] One near-silence or low-pass dip before the turn.
+- [ ] Big moves are layered low, mid and high; effects sit in the song's key; one sound family for the film.
+- [ ] No effect ends abruptly; heard on phone speakers and on headphones.
+- [ ] Voice spliced from several takes with pauses placed by hand, or recorded and retaken.
 
 ## 5. Watch tests
 

@@ -6,7 +6,8 @@ films and screen recordings. Paste-ready version: `skills/video-storyboard/SKILL
 
 ## How to write one
 
-1. Start from `storytelling.md`: one sentence, one trust step, a turn.
+1. Start from `storytelling.md`: five lines, one sentence, one trust step, a turn.
+   Bring 2-3 items from the taste board (`../research/taste.md`).
 2. Pick the music first and measure it (first downbeat, bar length). Shot times
    sit on its bars.
 3. Fill the template below. Every shot is one image and one move
@@ -26,8 +27,13 @@ films and screen recordings. Paste-ready version: `skills/video-storyboard/SKILL
 **Trust step:** curiosity / understanding / belief / action
 **Shape:** (from storytelling.md)
 **Length and format:** e.g. 35 s, 9:16 master + 16:9
-**Look:** the product's tokens (name the two main colours); no gradients
-**Music:** tempo, mood, track; first downbeat at __ s, bar = __ s
+**Look:** the product's tokens (name the two main colours); flat colours with designed texture, no gradients
+**Five lines:** situation / desire / conflict / change / result
+**Taste:** 2-3 items from the taste board, and what to take from each
+**Music:** tempo, mood, track; first downbeat at __ s, bar = __ s; dips at __
+**Voice:** which voice; takes per sentence
+**Sound family:** the one pack or palette
+**Finish:** 2-3 keywords; colours (dominant, secondary, accent); texture; frame rate
 **Score:** outside __ · owner: like / unsure / dislike
 
 ## Shots
@@ -59,4 +65,4 @@ Cutaways worth filming in case the edit needs them.
 - Shots listed without times on the music grid: the edit drifts off the beat.
 - Two ideas in one film because both were good: make two films.
 - A shot that is "the same screen, zoomed": that's a same-scene cut.
-- No sound column: every visual event needs one.
+- No sound column: every event that matters needs a sound or a chosen silence.

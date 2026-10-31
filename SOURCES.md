@@ -95,14 +95,13 @@ Full coverage table: the Language App project's `ideas/COVERAGE.md`.
 | themoenkcuts reel (DerhjNIolV8) | A hand-cover move hides a cut | editing rules |
 | Andrew, solo cinematic (vHfVI_4unYY) | Order of importance; sound is criticised hardest | storytelling, solo shoot |
 
+Read on Elias's Mac on 2026-10-31, with what each gave: `references/watch-list.md`.
+These lessons are in `methods/video/production-foundation.md`, `sound.md`, `voice.md`,
+`editing-rules.md`, `storytelling.md`, `methods/design/texture-and-finish.md`,
+`methods/motion-graphics/film-motion.md` and `methods/research/taste.md`.
+
 ## Not readable yet
 
-From the cloud, Instagram shows a login wall and YouTube shows a bot check, so
-these are recorded but not yet analysed. They are read on Elias's Mac (captions
-and top comments saved as text), and each lesson is added to the matching method
-here:
-
-Still blocked after the ideas thread's pass (title only, or rate-limited):
-YouTube ylXeuDp_8XM, WFkGbyH24AY, p6aF5ma7BiM, Du2lkZ_cux8, nQKWYmrixCU,
-dJR7OpkEeBk, 9ypqs_2fAl8, pdLEHfkwgV8, 0mOLs315i04, fBfJMNS0MnQ, 8kQTKYgHI1E;
-Instagram De2nFEHx4Uy; and I2's travel reel (a product idea).
+Instagram De2nFEHx4Uy (refused without a login) and I2's travel reel (a product idea).
+Captions only cover what is said: studying the picture of a reference needs the file,
+and that waits for Elias's yes.

@@ -30,6 +30,13 @@ sound, restraint), never the content or look.
 6. **Turn it into checks.** A pattern earns a place in a method only as a
    checkable line (e.g. "result lands after 0.5 s of stillness").
 
+Tools: `tools/video-refs/` fetches captions and comments, searches by real views, and
+measures any film file. Captions miss everything visual: a gap in the timestamps may be
+the best part of the film. Keep what you read honest: a sponsor's product in a tutorial
+is not evidence, and comment sections hold spam.
+
+Why a person's taste decides what gets studied: `taste.md`.
+
 ## Breakdown table (copy per reference)
 
 | Field | Value | Measured or inferred |
