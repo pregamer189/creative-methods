@@ -31,8 +31,12 @@ He said: "I hate that I have no options to pick neither or make a short comment.
 - **Read the feedback first.** Before making a picker, read the person's past marks
   and comments on the same area, and say in one line what changed because of them.
   An option they already rejected doesn't come back unless it was fixed.
-- **Every item has "Neither"** next to its options, and **a short comment box**
-  (one line, optional). A mark of "Neither" with no comment is still a valid answer.
+- **Every item has "Neither"** next to its options, and **a free-text box** that is
+  always visible and saved with the answer (Elias, 2026-10-31: "add text input ...
+  thats a RULE"). Text alone, or "Neither" with no text, is a valid answer.
+- **Every option shows its quality tier** (same message: "that tier thing thats a
+  RULE"): the page names the tier ladder once, each option carries its tier and
+  what the next tier would add.
 - **Every option makes sense on its own.** One plain sentence on what the person
   would get. If an item can't be explained in one line without codes, it isn't
   ready to show; plan it further.

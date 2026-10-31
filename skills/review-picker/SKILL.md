@@ -1,11 +1,11 @@
 ---
 name: review-picker
-description: Use when making any page or message where a person picks between options (designs, ideas, films, plans, settings). Every item gets numbered options, a recommendation, "Neither" and a short comment box, and the marks copy out as plain text.
+description: Use when making any page or message where a person picks between options (designs, ideas, films, plans, settings). Every item gets numbered options, a recommendation, "Neither", a quality tier on every option and a free-text box, and answers save as they are made.
 ---
 
 # Review picker
 
-Version 1.2 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.3 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 A picker exists to get a clear answer fast. The owner rejected pickers that gave
 no way to say "neither", no room for a short comment, and options that made no
@@ -20,9 +20,12 @@ is not shown.
 2. **Plan each item until it is clear.** If an option can't be explained in one
    plain sentence, without codes or internal names, it isn't ready. Plan more,
    don't show it.
-3. **Pick the tier.** Quality is raised in tiers across the whole product; say which
-   tier the options are at and what the next one would add. The floor: close to
-   real, never kid-like, cartoonish or toy-like.
+3. **Name the tiers (a hard rule, the owner, 2026-10-31).** Quality is raised in
+   tiers across the whole product. Write the tier ladder for this area once at the
+   top of the page (for example "Tier 1 · works; Tier 2 · polished; Tier 3 · close
+   to real"), then label **every option** with its tier and one line on what the
+   next tier would add. The floor: close to real, never kid-like, cartoonish or
+   toy-like.
 
 ## Each item
 
@@ -31,7 +34,11 @@ is not shown.
   what the person gets, and a real example (a screenshot, a clip, a quoted line).
 - One option is **recommended**, with a one-line reason.
 - **"Neither"** always sits beside the options.
-- A **short comment box** (one line, optional) on every item.
+- Every option shows its **tier label** ("Tier 2 · polished; Tier 3 adds real
+  texture and light").
+- **A free-text box on every item** (a hard rule, the owner, 2026-10-31): always
+  visible, never behind a toggle, saved with the answer. Text alone, with no option
+  picked, counts as an answer.
 - Same crop, scale and state when options are images, so the difference shows.
 
 ## The page
@@ -74,6 +81,6 @@ is not shown.
 ## Done when
 
 The feedback line is at the top, every item has numbered options, a
-recommendation, "Neither" and a comment box, answers save to the shared store as
+recommendation, "Neither", a tier label on every option and a free-text box, answers save to the shared store as
 they are made (with Copy as the backup), every "you said" is quoted and linked,
 and every option is shown at the real quality.

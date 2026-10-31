@@ -11,6 +11,7 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
+| 2026-10-31 | review-picker | 1.3 | Hard rules from the owner: a free-text box on every item (always visible, saved, text alone counts), and a quality tier label on every option with a tier ladder at the top | LanguageApp, Prello |
 | 2026-10-31 | review-picker | 1.2 | Answers save as you go to the page host's shared store (one document per item, read back on load); the person only says "done"; Copy my marks is the backup; every "you said" quotes and links the message | LanguageApp, Prello |
 | 2026-10-31 | review-picker | 1.1 | Answered questions go away on return (Elias: "dont keep questions where i answered") | LanguageApp, Prello |
 | 2026-10-31 | film-quality-gate | 1.5 | Elias's call: a new angle while the same move continues is allowed; re-crops, zooms of the same frame and same-frame time skips stay banned | LanguageApp, Prello |
