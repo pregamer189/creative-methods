@@ -32,9 +32,11 @@ Use this as a "never again" list when planning, not just when cutting.
 
 - **Banned tracks (Elias's list, never use):** Mixkit 729 "Pop Track 03", Mixkit
   158 "Happy Times", Mixkit 726, "garage-24s". "pulse-20s" is not for coded films.
-- Free, licensed music with **higher tempo (125-140 BPM) and real vocals**, a
-  clear hook, a drop and a clean ending. Soft corporate beds were rejected (Elias,
-  2026-10-17).
+- Free, licensed music with **higher tempo (125-140 BPM)**, a clear hook, a drop and
+  a clean ending. Soft corporate beds were rejected (Elias, 2026-10-17). Vocals:
+  **real vocals for hype and launch films** (2026-10-17), but **inspiring music
+  without vocals for explainers with a voiceover** (Elias's Prello film picks), so
+  the voice isn't fighting a singer. A product's own picks decide per film type.
 - Measure the track (first downbeat, bar length) before timing any cut. Beat
   detection alone misses the first downbeat.
 - Open on a strong section, end on the last hit, no silent tail. Duck 15-20 dB

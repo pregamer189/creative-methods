@@ -11,6 +11,9 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
+| 2026-10-31 | film-quality-gate | 1.2 | Opening and claims accept a product's approved coded stand-in (Prello explainers use no real captures); vocals follow the product's picks per film type | LanguageApp, Prello |
+| 2026-10-31 | video-storyboard | 1.2 | Same stand-in rule; claims must be true of the real product | LanguageApp, Prello |
+| 2026-10-31 | editing-rules (method) | - | Vocals for hype films, no vocals under an explainer voiceover (found clashing with Prello's picks) | - |
 | 2026-10-31 | film-quality-gate | 1.1 | Bounce added to banned jump effects; voiceover films use short key lines, not full subtitles | LanguageApp, Prello |
 | 2026-10-31 | video-storyboard | 1.1 | Sell the value, viewer motive and principle, own audience and voice, made to be quoted, measure by watch time and trials, two new shapes | LanguageApp, Prello |
 | 2026-10-31 | motion-and-feedback | 1.1 | Gentle "oops" that resolves upbeat replaces "never a sad sound"; never playful-looking; delight never costs task time; meaningful zoom transitions | LanguageApp, Prello |

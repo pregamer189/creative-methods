@@ -21,7 +21,7 @@ moonb.io/blog/product-launch-video, postfa.st/sizes/x/video) · [E] Elias.
 |---|---|---|
 | 1.1 | One idea in one sentence, and one logline: a maker, a goal, a turn. The film shows something the product really does for the viewer | [LO §3] [E I34] |
 | 1.2 | It moves one step of a trust arc (curiosity, understanding, belief, action), not a pile of likeable things | [E I11] |
-| 1.3 | The first 2 s show the real thing doing a real task (or a typed prompt that lands). No logo first, no fade from black | [X] [FC] |
+| 1.3 | The first 2 s show the product doing a real task (a real capture, or the product's approved stand-in such as abstract coded screens; or a typed prompt that lands). No logo first, no fade from black | [X] [FC] |
 | 1.4 | The use case is said in one short line in the first seconds | [X] |
 | 1.5 | Shape: framing, demo, closing, with one big move at the peak | [X] [LO §3] |
 | 1.6 | Length fits the platform: about 30-45 s for a hero cut; anything longer is a separate film | [X] [FC] |

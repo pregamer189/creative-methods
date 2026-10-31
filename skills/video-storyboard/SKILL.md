@@ -5,7 +5,7 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
-Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.2 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Plan the whole film on one page before anything is built, so nothing is
 improvised and every note can point at one shot.
@@ -17,13 +17,15 @@ improvised and every note can point at one shot.
   film moves: curiosity → understanding → belief → action.
 - **A story** has structure (beginning, turn, end), a subject, and development
   (something changes).
-- **First 2 s work muted:** the real thing doing something, or text that lands. No
-  logo first, no fade from black.
+- **First 2 s work muted:** the product doing something real (a real capture, or the
+  product's approved stand-in such as abstract coded screens), or text that lands.
+  No logo first, no fade from black.
 - **One image = one shot = one move.** A new shot only on a new action. Never cut
   back into the same image at another zoom or crop.
 - **Music first.** Measure the first downbeat and bar length; shot times sit on bars.
 - **Every visual event has a sound.**
-- **Every claim is true on a real screen today.**
+- **Every claim is true of the real product today**, even when the film shows a
+  coded stand-in instead of a capture.
 - **Sell the value the viewer gets**, and name the viewer's motive and the one
   behaviour principle the film uses. No guilt, no fake urgency.
 - **Write for this product's audience and voice**, never another product's.

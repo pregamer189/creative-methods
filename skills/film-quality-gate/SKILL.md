@@ -5,7 +5,7 @@ description: Use before showing any finished film or video to a person. Checks t
 
 # Film quality gate
 
-Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.2 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Same-model checks share the maker's blind spots, so this gate uses only facts a
 command can measure, looks at named frames, and one outside eye. Run in order.
@@ -15,7 +15,7 @@ Any failure: fix and rerun. **A film that fails any check is not shown.**
 
 - [ ] One idea in one sentence; a logline with a maker, a goal and a turn.
 - [ ] It moves one trust step (curiosity, understanding, belief or action).
-- [ ] First 2 s show the real thing doing a real task. No logo first, no fade from black.
+- [ ] First 2 s show the product doing a real task: a real capture, or the product's approved stand-in (e.g. abstract coded screens) showing real behaviour. No logo first, no fade from black.
 - [ ] The use case is said in one short line early.
 - [ ] Length fits the platform (about 30-45 s for a hero cut).
 - [ ] A storyboard exists with shot times on the music's bars and a plan for every cut.
@@ -47,7 +47,7 @@ Grab stills at every cut -0.1 s and +0.2 s and at shot midpoints
 ## 4. Sound
 
 - [ ] Every visual event has a sound (no UI click on a depicted press if the product's film rules ban it).
-- [ ] Music opens on a strong section, ends on the last hit, no silent tail; not on the product's banned list.
+- [ ] Music opens on a strong section, ends on the last hit, no silent tail; not on the product's banned list; vocals or not as the product's picks say for this kind of film.
 - [ ] Music ducks 15-20 dB under voice.
 - [ ] One near-silence before the turn.
 
