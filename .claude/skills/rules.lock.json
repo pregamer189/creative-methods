@@ -1,0 +1,23 @@
+{
+ "ai-tells": "8f53a847261e",
+ "editing-rules": "93617cef8c30",
+ "emotion-graphics": "c9655ee232fe",
+ "film-gate-method": "5448958c7e23",
+ "film-motion": "529727698713",
+ "film-quality-gate": "7885e1f7b0c1",
+ "idea-scorecard": "d46f8cf4db65",
+ "motion-and-feedback": "baff5ca2245f",
+ "no-gradients": "db0349259589",
+ "production-foundation": "b526d846a6e0",
+ "reference-analysis": "81a6d6f01502",
+ "review-picker": "fe73b8bc0f4d",
+ "skill-audit": "92241b64cb0d",
+ "sound": "c9c937344574",
+ "storyboard-method": "91f53e5e8a66",
+ "storytelling": "e893bce8fb18",
+ "tactile-buttons": "0c9f12b4b4d5",
+ "texture-and-finish": "b12b8d1609d8",
+ "ui-motion": "da9e837fb2d8",
+ "video-storyboard": "b6f21d079883",
+ "voice": "8afc47b76a19"
+}
