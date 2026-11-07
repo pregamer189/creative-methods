@@ -10,6 +10,7 @@
 | `skill-combos.mjs` | Proves each skill set in `.claude/skills/combos.json` has an owner in `RULE-OWNERS.md` for every shared topic | `node scripts/skill-combos.mjs [--lock]` |
 | `skill-versions.mjs` | Checks every skill has a `Version` line with a matching `CHANGELOG.md` row; `--since <ref>` lists skills to re-paste | `node tools/skill-versions.mjs [--since origin/main]` |
 | `sync-creative-methods.mjs` | Installs every skill into `.claude/skills/` and the tools into `scripts/` and `tools/`; `--check` flags anything behind (exit 1) | `node scripts/sync-creative-methods.mjs [--check]` |
+| `slab-take/` | Act a camera move with a printed marker card; track it into a camera path, greybox preview, Blender (`slab-take/README.md`) | `python3 tools/slab-take/selftest.py` |
 | `video-refs/` | Captions, comments, search by real views, and measuring a film file (`video-refs/README.md`) | `tools/video-refs/fetch.sh refs <id>` |
 | `papers-mcp/` | Free paper search (ERIC, Europe PMC, Crossref; OpenAlex and Semantic Scholar with free keys). MCP server and command line, no dependencies | `node tools/papers-mcp/server.mjs search "\"key term\" more words"` |
 

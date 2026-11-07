@@ -31,6 +31,7 @@ const TOOLS = [
   ['tools/sync-creative-methods.mjs', 'scripts/sync-creative-methods.mjs'],
   ['tools/papers-mcp', 'tools/papers-mcp'],
   ['tools/video-refs', 'tools/video-refs'],
+  ['tools/slab-take', 'tools/slab-take'],
 ];
 
 const src = [flag('--from'), process.env.CREATIVE_METHODS_DIR, '../creative-methods', '/home/user/creative-methods']
