@@ -11,6 +11,7 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
+| 2026-11-09 | motion-and-feedback | 1.5 | The measured-teardown pointer is no longer a repo path, so installed copies pass the product repos' broken-link check | LanguageApp, Prello |
 | 2026-11-08 | review-picker | 1.5 | Pick buttons post real comments on the page host and the comment button opens the host's own composer (no text fields on the page there); preset tags; one mark per thing; "This is X. You are rating Y."; the bias line; phone size first with every variation screenshot-checked; each round archived to the preferences log and cleared; verdicts as icons | draft-concept, Prello |
 | 2026-11-08 | motion-and-feedback | 1.4 | Ease-in scoped: never on a tap response; exits may accelerate and a progress bar jumping to a new value fills ease-in with the reward on arrival (measured teardown); feedback mark lands on the tap frame; wrong is quiet | draft-concept, Prello |
 | 2026-11-08 | video-storyboard | 1.8 | Examples made product-neutral (viewer motive, the good shot example) | draft-concept, Prello |
