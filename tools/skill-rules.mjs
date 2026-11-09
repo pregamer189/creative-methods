@@ -15,7 +15,10 @@ import { join } from 'node:path';
 
 // The repo's own rule files (they outrank skills). Override per repo with
 // .claude/skills/rule-sources.json, either [["label", "path"], ...] or
-// { "sources": [["label", "path"], ...], "skillDirs": ["../creative-methods/skills"] }.
+// { "sources": [["label", "path"], ...], "skillDirs": ["../creative-methods/skills"],
+//   "topics": { "topic": "regex words" } }.
+// "topics" adds or replaces topic words for that repo only, so a product's own terms
+// (its name, its domain words) live in the product repo, never in this shared copy.
 // skillDirs adds skill folders beyond .claude/skills (e.g. shared skills loaded as
 // account skills). Canonical copy: pregamer189/creative-methods tools/; product repos copy it as-is.
 const CFG = '.claude/skills/rule-sources.json';
@@ -56,13 +59,15 @@ const TOPICS = {
   button: /button|\bkey\b|press|tap target|touch target/i,
   copy: /copy|wording|microcopy|tone|em[- ]dash|exclamation/i,
   ai_tells: /\bAI\b|slop|generic|cliché|template/i,
-  name: /product name|placeholder|kioku/i,
-  language: /japanese|furigana|kanji|romaji|jlpt|per-language/i,
-  streak: /streak|vehicle|guilt/i,
+  name: /product name|placeholder/i,
+  locale: /per-language|locale|locali[sz]ation|right-to-left/i,
+  streak: /streak|guilt/i,
   research: /research|source|evidence|cite/i,
   asking: /\belias\b|ask|question/i,
   tokens_cost: /token|agents? at once|parallel|usage limit/i,
 };
+
+for (const [t, words] of Object.entries((!Array.isArray(raw) && raw?.topics) || {})) TOPICS[t] = new RegExp(words, 'i');
 
 const RULE = /\b(must|never|always|don'?t|do not|avoid|no |not |only|instead|ban|forbid|required?|should not|prefer)\b/i;
 

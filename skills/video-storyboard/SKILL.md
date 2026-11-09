@@ -5,7 +5,7 @@ description: Use when planning any short film (product launch, explainer, build 
 
 # Video storyboard
 
-Version 1.7 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.8 (2026-11-08). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Plan the whole film on one page before anything is built, so nothing is
 improvised and every note can point at one shot. Plan much more than feels
@@ -93,7 +93,7 @@ because of them.
 **Finish:** 2-3 keywords; colours (dominant, secondary, accent); colour per chapter; texture; frame rate
 **School:** carried or cut; the carrier between places; what returns (a home frame, a character)
 **Score:** outside __ · owner: like / unsure / dislike
-**Viewer motive and principle:** e.g. "wants to understand what they watch; before and after"
+**Viewer motive and principle:** e.g. "wants to feel capable; before and after"
 **Measure at 48 h and 7 d:** watch time, shares, saves, trials
 
 ## Shots
@@ -116,8 +116,8 @@ Per shot: exists / to make / needs a yes before generating.
 
 ## Good and bad
 
-- Good: "Shot 3, bars 5-6: the card flips to the answer; tick sound; cut out on the
-  flip's direction (left), the next card enters moving left."
+- Good: "Shot 3, bars 5-6: the box opens to show the result; tick sound; cut out on
+  the lid's direction (left), the next box enters moving left."
 - Bad: "Shot 3: show the app looking great." No action, no time, no sound.
 - Bad: shot 4 is shot 3 zoomed in. That's a same-scene cut.
 

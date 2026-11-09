@@ -21,6 +21,6 @@ const i = process.argv.indexOf('--since');
 if (i > 0) {
   const changed = execSync(`git diff --name-only ${process.argv[i + 1]} -- skills`, { encoding: 'utf8' })
     .split('\n').map((p) => p.match(/^skills\/([^/]+)\/SKILL\.md$/)?.[1]).filter(Boolean);
-  console.log(changed.length ? `Sync into LanguageApp and Prello: ${changed.join(', ')}` : 'Nothing to sync.');
+  console.log(changed.length ? `Sync into draft-concept and Prello: ${changed.join(', ')}` : 'Nothing to sync.');
 }
 process.exit(fails ? 1 : 0);

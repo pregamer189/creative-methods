@@ -5,7 +5,7 @@ Consensus, cheap on tokens. One file, no dependencies, so every line can be read
 
 | Source | Key? | Good for |
 |---|---|---|
-| ERIC | none | education and language-learning research, free PDFs |
+| ERIC | none | education research, free PDFs |
 | Europe PMC | none | PubMed, PMC, preprints; abstracts and open-access flags |
 | Crossref | none | every DOI; the widest net |
 | OpenAlex | `OPENALEX_API_KEY` (free) | citations, open-access links, all fields |
@@ -28,6 +28,6 @@ best free full-text link. Paywalled and needed anyway: ask for OneSearch on the 
 Results are cached in the folder set by `PAPERS_CACHE_DIR` (for example `research/cache/papers/`) so the same search never costs twice.
 
 ```
-node tools/papers-mcp/server.mjs search "spaced repetition vocabulary" --limit 8 --from 2015
+node tools/papers-mcp/server.mjs search "habit formation automaticity" --limit 8 --from 2015
 node tools/papers-mcp/server.mjs details 10.1891/1945-8959.18.2.160
 ```

@@ -39,8 +39,11 @@ Paste-ready version: `skills/motion-and-feedback/SKILL.md`.
 
 - Nothing over 500 ms blocks the next tap. A celebration after a finished task
   may run longer (up to about 2 s) because the user waits for nothing else.
-- Never ease-in on UI. **Linear only** where motion tracks time or scroll (a
-  progress fill, a hold-to-confirm ring, a loop), never as a response to a tap.
+- Never ease-in on a response to a tap. **Linear only** where motion tracks time or
+  scroll (a timer fill, a hold-to-confirm ring, a loop). Two measured exceptions
+  (`measured-teardown.md`): exits leaving the screen may accelerate, and a progress
+  bar jumping to a newly reached value fills ease-in, stops dead, and the reward
+  fires on arrival.
 - No elastic overshoot on sheets and dialogs; springs are for keys and characters.
 
 ## Motion budget

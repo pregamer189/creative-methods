@@ -2,14 +2,15 @@
 
 One shared home for **video, motion graphics, emotion graphics and design
 methods and skills**, plus the method tools behind them (skill audit, idea
-scoring, paper search). Elias's projects read from it.
+scoring, paper search). Elias's projects read from it. It is public: it holds how we work, never what we are making.
 
-- **Owner and main author: the Language App project** (its "Set up proven
+- **Owner and main author: the draft-concept project** (its "Set up proven
   skills and research tools" session). It writes and revises everything here.
 - **Other projects (Prello, ...) only read.** They never rewrite these files.
-  Improvements go back through the Language App project.
+  Improvements go back through the draft-concept project.
 - **Generic only.** A product's own brand (palette, logo, fonts, music picks,
-  name, content) stays in that product's repo. Methods here say "use the
+  name, content), its domain and its features stay in that product's repo; no file
+  here hints at what a product is. Methods here say "use the
   product's tokens"; they never name the values.
 - **Living, not static.** Skills and methods change often; each skill carries a
   version and every change is logged in `CHANGELOG.md`, naming the repos that
@@ -23,10 +24,12 @@ scoring, paper search). Elias's projects read from it.
 |---|---|
 | `METHOD-MAP.md` | The mental model: the chain from idea to finished work, who wins when rules clash, which method when |
 | `skills/` | Ready-made skills in `SKILL.md` format, each complete on its own; installed into product repos by `tools/sync-creative-methods.mjs`. Index: `skills/README.md` |
+| `methods/principles/` | The philosophy under everything: evidence first, product philosophy, running the work, the pipeline from idea to finished thing |
 | `methods/video/` | Story, storyboard, solo shooting, editing rules, coded films, the film quality gate |
 | `methods/motion-graphics/` | Motion craft for interfaces and for films |
 | `methods/emotion-graphics/` | Making a product feel alive and rewarding: reactions, sound, special moments |
-| `methods/design/` | Visual rules that hold across products: no gradients, AI tells, tactile buttons |
+| `methods/design/` | Visual rules that hold across products: no gradients, AI tells, tactile buttons, scene kit, review pages |
+| `methods/web/` | Landing and waitlist pages |
 | `methods/research/` | Idea scoring, paper search, learning from great references |
 | `methods/skills/` | How to audit, combine and write skills so they don't contradict each other |
 | `tools/` | Scripts the methods use: `skill-rules.mjs`, `skill-combos.mjs`, `papers-mcp/`. This is the canonical copy; product repos copy from here |
@@ -44,9 +47,9 @@ scoring, paper search). Elias's projects read from it.
    load the matching skill.
 3. Put the product's own rules in its repo, and list them as the top authority
    in its `.claude/skills/RULE-OWNERS.md` (see `methods/skills/skill-audit.md`).
-4. Need a change here? Ask in the Language App project.
+4. Need a change here? Ask in the draft-concept project.
 
-## How to contribute (Language App)
+## How to contribute (draft-concept)
 
 - One subject per file, short and checkable (tables of checks beat prose).
 - Say where each rule comes from (a source link, or "Elias, date").
