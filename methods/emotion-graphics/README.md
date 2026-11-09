@@ -8,9 +8,9 @@ question: what should the user *feel* at this moment, and what makes them feel i
 Grounded in Elias's ideas I3 (premium = the felt satisfaction of the in-between
 moments), I21 (tiny living details, a world that zooms), I27 (sound through
 everything, special moments, easter eggs), I28 (complexity woven into simple
-means), I30 (grand but never playful-looking), I31 (a tutor's short voice reactions; "sound" means a person's voice, Elias
+means), I30 (grand but never playful-looking), I31 (a guiding character's short voice reactions; "sound" means a person's voice, Elias
 2026-10-31),
-2026-10-26; and in store reviews of course-style language apps (what users love
+2026-10-26; and in store reviews of the leading apps in a crowded consumer category (what users love
 and hate, 2026-10).
 
 ## Rules
@@ -25,7 +25,7 @@ and hate, 2026-10).
    voice sound** (a real person's "oh", "mm-hm", a soft laugh; never a beep or a
    random effect, and never a robot voice) or a look, mostly positive and never discouraging, and it resolves into
    encouragement within the same moment (I31). The product's own rules can be
-   stricter (e.g. "the streak object only ever sounds good").
+   stricter (e.g. "a progress object only ever sounds good").
 4. **No guilt, no fear.** No crying or desperate mascots, no sad app icon, no
    "you'll lose it", no red alarms, no countdowns meant to scare. Store reviews
    call these "passive aggressive guilt trips" and a "nightly panic". Setbacks are
@@ -69,7 +69,7 @@ and hate, 2026-10).
 
 | Field | Example |
 |---|---|
-| Trigger | Finished today's session |
+| Trigger | Finished the main task |
 | Feeling | Proud, quietly delighted |
 | Visual cue | The progress object moves up one step with a small spring |
 | Sound | Rising three-note chime, under 600 ms |

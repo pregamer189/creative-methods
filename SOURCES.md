@@ -14,13 +14,11 @@ cloud; see the bottom of this file).
 | Idea | In short | Status | Where |
 |---|---|---|---|
 | I1 | Hardened systems that catch his philosophy | used | `METHOD-MAP.md`, every gate and checklist |
-| I2 | Travel-booking app | product (parked) | - |
 | I3 | Premium = felt satisfaction of in-between moments | used | `methods/emotion-graphics/README.md` |
-| I4 | Don't copy Duolingo; fresh air | used | `methods/design/ai-tells.md` (product patterns), emotion graphics |
+| I4 | Don't copy the category leader; fresh air | used | `methods/design/ai-tells.md` (product patterns), emotion graphics |
 | I5 | Right, future-proof idea before building | used | `METHOD-MAP.md` (cheap first; plan before build) |
 | I6 | Don't flatten unique ideas | used | `methods/research/idea-rail.md`, `skills/idea-scorecard` |
 | I7 | Video and marketing system is essential | used | `methods/video/` as a whole |
-| I8 | Market Prello now or polish | product (Prello) | - |
 | I9 | Most hardened marketing system | used | `METHOD-MAP.md` chain, film gate |
 | I10 | Human behaviour at "Social Dilemma" depth, including execution | used | `methods/video/storytelling.md` (motive and principle per film) |
 | I11 | A video is a trust arc | used | storytelling, `skills/video-storyboard`, film gate 1.2 |
@@ -34,44 +32,49 @@ cloud; see the bottom of this file).
 | I19 | Learn from effort levels | used | `methods/research/paper-search.md` (effort rule, tested 2026-10-31) |
 | I20 | Kurzgesagt-style animated stories | used | storytelling (animated story shape) |
 | I21 | Tiny living details; a world that zooms | used | emotion graphics rules 6 and 12 |
-| I22 | Paper journey world by progress | product (Language App) | - |
-| I23 | Customisable player character | product (Language App) | - |
-| I24 | Talk to learn; recall over recognition | product (learning) | - |
-| I25 | A bird delivers leftover cards | product (Language App) | emotion graphics uses the pattern (a character reacting to an action) |
-| I26 | Own cards placed into world rooms | product (Language App) | - |
 | I27 | Sound through everything; special moments; easter eggs | used | emotion graphics rules 7 and 8, `methods/motion-graphics/ui-motion.md` |
 | I28 | Complexity woven into simple means | used | emotion graphics rule 9 |
 | I29 | Characters with memory | product; its "world is background" part used | emotion graphics rule 11 |
 | I30 | Grand but insanely high quality, never playful-looking | used | emotion graphics rules 10 and 11 |
-| I31 | Tutor with short reactions, mostly positive; "sound" = a person's voice sound (corrected by Elias 2026-10-31) | used | emotion graphics rule 3 (a short human voice "oops" that resolves upbeat) |
+| I31 | A guiding character with short reactions, mostly positive; "sound" = a person's voice sound (corrected by Elias 2026-10-31) | used | emotion graphics rule 3 (a short human voice "oops" that resolves upbeat) |
 | I32 | Pick skills and sources by proven results | used | skill-audit (choosing skills) |
 | I33 | Analyse great videos and what viewers said | used | reference-analysis |
 | I34 | Slop = ideas crammed in, poorly connected | used | storytelling, editing rules |
 | I35 | How people write on X; each audience | used | storytelling (own audience and voice) |
 | I36 | Voiceover hype films that sell the value | used | storytelling (voiceover value film), film gate 5.1 |
 | I37 | Best practices for skills | used | skill-audit, `skills/README.md` |
-| I38-I41 | Study app, notebook, live translation, save the last seconds | product | - |
 | I42 | Before / A built / B alternative review format | used | `methods/design/show-changes.md` |
 | I43 | Engineer quotability on X | used | storytelling (made to be quoted) |
-| I44 | Proactive co-worker | product (Prello) | - |
-| I45 | "Agent Harness for Learning" video | product (learning) | - |
-| I46-I49 | Speaking skills app, FSRS curves, answer closeness, sentence nuance | product (learning) | - |
 | I50 | What saves tokens and gives most progress | used | `METHOD-MAP.md` belief 5 |
-| I51-I57 | Session size, keyboards, screenshots, media prompts, translation setting, think-aloud, reshaped cards | product (learning) | - |
 | I58 | How AI recognises a creative idea | used | idea-rail, idea-scorecard ("stronger if" pattern) |
 | I59 | Do what you see in great references | used | reference-analysis |
 | I60 | Claude Motion (note) | source | not checked yet |
 | I61, I62, I64, I65, I67, I69 | Video and reel links | source | see below |
 | I63 | How do we brand it? | used | brand-kb template |
 | I66 | Self-filmed content | used | `methods/video/solo-shoot.md`, maker story shape |
-| I68 | Bundle AI or bring your own keys | product | - |
+| I2, I8, I22, I23, I24, I25, I26, I38-I41, I44, I45, I46-I49, I51-I57, I68 | Product ideas | product (kept in the owning project) | - |
 | I70 | Learn filmmaking and branding; personal brand | used | solo-shoot, storytelling, brand-kb |
+
+## Principles and methods added 2026-11-08
+
+| Source | Used in |
+|---|---|
+| Elias, 2026-11-08: "everything is built around what actually works"; sort questions; prove use; bring back what doesn't stick, differently; explanations break the flow | `methods/principles/evidence-first.md` |
+| Elias, 2026-11-01: no philosophy for the pages yet; "too plain, no character or soul"; the Figma approach | `methods/principles/product-philosophy.md` |
+| Elias, 2026-10-25 and 2026-11-01: one chunk per thread, plan and critic pass, hard rules for repeated misses; "you stop for my choice way too much" | `methods/principles/running-the-work.md` |
+| Elias, 2026-11-01 to 2026-11-08: fixed stages, things come in one at a time; lit real material; marks on the first scene batches | `methods/design/scene-kit.md` |
+| Frame-by-frame teardown of a top consumer app, 2026-11-07 (two 60 fps recordings, 13 moments) | `methods/motion-graphics/measured-teardown.md` |
+| Elias, 2026-11-02 to 2026-11-08: synthetic sounds read odd; no background sound under focused work; sound timed to its line | `methods/motion-graphics/motion-and-sound-lab.md` |
+| Elias, 2026-11-03 to 2026-11-08: teaching account method versions, ten video principles, 0.35 s start and end margins | `methods/video/teaching-account.md` |
+| Elias, 2026-11-08: one page with two entries, a scroll journey with fast film-like wipes, soft but alive | `methods/web/landing-pages.md` |
+| Elias, 2026-11-01 to 2026-11-03: plain literal cards, bias line, one mark per thing, picks post real comments | `methods/design/show-changes.md`, `skills/review-picker` 1.5 |
+| Apple HIG (gestures); Norman & Nielsen 2010 (hidden gestures); Patall et al. 2008 (choice); Miesler, Leder & Herrmann 2011 (baby schema) | `methods/principles/product-philosophy.md` |
 
 ## Other sources
 
 | Source | Used in |
 |---|---|
-| Store reviews of course-style language apps (what users love and hate, 2026-10) | Emotion graphics: no guilt, no sad icon, no "infantilising" game layer, let users turn extras off, voices that aren't robotic |
+| Store reviews of the leading apps in a crowded consumer category (what users love and hate, 2026-10) | Emotion graphics: no guilt, no sad icon, no "infantilising" game layer, let users turn extras off, voices that aren't robotic |
 | Juan, "How to Engineer Virality on X" (2026-10-27) | Storytelling: made to be quoted |
 | Andrew, "how to FILM Cinematic Videos SOLO" (captions read) | Solo shoot, storytelling |
 | Higgsfield Katana; "Reverse Engineer Higgsfield" README | Reference analysis (measured, then inferred), film motion (motion as code) |
@@ -81,7 +84,7 @@ cloud; see the bottom of this file).
 
 ## Reference videos and reels (read by the ideas thread, 2026-10-31)
 
-Full coverage table: the Language App project's `ideas/COVERAGE.md`.
+Full coverage table: kept in the owning project.
 
 | Reference | Lesson | Used in |
 |---|---|---|

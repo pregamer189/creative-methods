@@ -5,7 +5,7 @@ How to find research evidence cheaply and honestly. Tool: `tools/papers-mcp/`
 
 ## Steps
 
-1. **Quote the key term.** `"retrieval practice" pretesting` finds far better
+1. **Quote the key term.** `"choice overload" meta-analysis` finds far better
    hits than the same words unquoted (measured in `tools/papers-mcp/BENCH.md`).
 2. **Reviews first.** Read results flagged REVIEW (meta-analyses, systematic
    reviews) before single studies. Then the MOST CITED classics.

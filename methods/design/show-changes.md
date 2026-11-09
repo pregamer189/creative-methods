@@ -31,9 +31,21 @@ He said: "I hate that I have no options to pick neither or make a short comment.
 - **Read the feedback first.** Before making a picker, read the person's past marks
   and comments on the same area, and say in one line what changed because of them.
   An option they already rejected doesn't come back unless it was fixed.
-- **Every item has "Neither"** next to its options, and **a free-text box** that is
-  always visible and saved with the answer (Elias, 2026-10-31: "add text input ...
-  thats a RULE"). Text alone, or "Neither" with no text, is a valid answer.
+- **Every item has "Neither"** next to its options, and **a comment button** (Elias,
+  2026-10-31: "add text input ... thats a RULE"). Since 2026-11-03 the comment button
+  opens the page host's own comment box, and **every pick button posts a real
+  comment** (`Pick: B`); no text fields on the page where the host has comments. A
+  comment alone, or "Neither" with no comment, is a valid answer.
+- **Plain and literal** (Elias, 2026-11-01: the page read "like a riddle ... no
+  content whatsoever that I can rate"). Every item is a real thing to see or hear in
+  its real flow, with one sentence: "This is X. You are rating Y." One mark per thing.
+- **The bias line** near the picks: "Rendering quality can bias your pick: judge the
+  idea, not the polish."
+- **Phone size first**, and every variation screenshot-checked at phone width before
+  it is shown.
+- **Each round is archived and cleared:** every mark and comment goes into the
+  product's preferences log, every comment gets a change or an answer, then the
+  page's marks are cleared.
 - **Every option shows its quality tier** (same message: "that tier thing thats a
   RULE"): the page names the tier ladder once, each option carries its tier and
   what the next tier would add.

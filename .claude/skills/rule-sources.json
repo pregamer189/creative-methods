@@ -16,7 +16,17 @@
     ["sound", "methods/video/sound.md"],
     ["voice", "methods/video/voice.md"],
     ["texture-and-finish", "methods/design/texture-and-finish.md"],
-    ["taste", "methods/research/taste.md"]
+    ["taste", "methods/research/taste.md"],
+    ["evidence-first", "methods/principles/evidence-first.md"],
+    ["product-philosophy", "methods/principles/product-philosophy.md"],
+    ["running-the-work", "methods/principles/running-the-work.md"],
+    ["idea-to-finished", "methods/principles/idea-to-finished.md"],
+    ["scene-kit", "methods/design/scene-kit.md"],
+    ["show-changes", "methods/design/show-changes.md"],
+    ["measured-teardown", "methods/motion-graphics/measured-teardown.md"],
+    ["motion-sound-lab", "methods/motion-graphics/motion-and-sound-lab.md"],
+    ["teaching-account", "methods/video/teaching-account.md"],
+    ["landing-pages", "methods/web/landing-pages.md"]
   ],
   "skillDirs": ["skills"]
 }

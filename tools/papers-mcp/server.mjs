@@ -13,7 +13,7 @@
 // Privacy rule: requests carry a generic User-Agent and never the user's email or name.
 // Unpaywall (free PDF links) is used only when UNPAYWALL_EMAIL is set to a project address.
 //
-// CLI:  node server.mjs search "spaced repetition vocabulary" [--limit 8] [--sources eric,crossref] [--from 2015]
+// CLI:  node server.mjs search "habit formation automaticity" [--limit 8] [--sources eric,crossref] [--from 2015]
 //       node server.mjs details 10.1891/1945-8959.18.2.160
 // MCP:  node server.mjs            (speaks JSON-RPC over stdin/stdout)
 
@@ -21,7 +21,7 @@ import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
-const UA = 'LanguageApp-research/0.1 (no contact)';
+const UA = 'creative-methods-papers/0.1 (no contact)';
 const TIMEOUT_MS = Number(process.env.PAPERS_TIMEOUT_MS || 12000);
 const CACHE_DIR = process.env.PAPERS_CACHE_DIR || '';
 const ALL_SOURCES = ['eric', 'europepmc', 'crossref', 'openalex', 's2', 'arxiv'];
@@ -328,7 +328,7 @@ const TOOLS = [
     inputSchema: {
       type: 'object',
       properties: {
-        query: { type: 'string', description: 'Plain-language search, e.g. "spaced repetition vocabulary retention"' },
+        query: { type: 'string', description: 'Plain-language search, e.g. "choice overload meta-analysis"' },
         limit: { type: 'integer', minimum: 1, maximum: 20, default: 8 },
         sources: { type: 'array', items: { type: 'string', enum: ALL_SOURCES }, description: `Default: ${DEFAULT_SOURCES.join(', ')}` },
         year_from: { type: 'integer', description: 'Only works published in or after this year' },

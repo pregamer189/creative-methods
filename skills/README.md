@@ -32,4 +32,4 @@ and fails when the repo is behind. Never edit an installed copy; change it here.
 - After any change: `node tools/skill-combos.mjs` and `node tools/skill-versions.mjs`
   must both pass, then `node tools/skill-combos.mjs --lock`.
 - `node tools/skill-versions.mjs --since <ref>` lists which skills changed, then
-  sync LanguageApp and Prello.
+  sync draft-concept and Prello.

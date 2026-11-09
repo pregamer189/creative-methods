@@ -5,7 +5,7 @@ description: Use when adding animation, press feedback, haptics, sound effects o
 
 # Motion and feedback
 
-Version 1.3 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.4 (2026-11-08). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Quiet at rest, instant on touch, one moment per screen. The product's tokens and
 rules win over the values here; use these when it has none.
@@ -31,8 +31,14 @@ rules win over the values here; use these when it has none.
 | Celebration after a finished task | up to ~2 s | spring |
 
 - Nothing over 500 ms blocks the next tap.
-- Never ease-in on UI. Linear only when motion tracks time or scroll (progress
-  fill, hold-to-confirm, loop).
+- Never ease-in on a response to a tap. Linear only when motion tracks time or
+  scroll (a timer fill, hold-to-confirm, loop). Two measured exceptions
+  (`methods/motion-graphics/measured-teardown.md`): an **exit** leaving the screen may
+  accelerate (about a third of the entry's time), and a **progress bar jumping to a
+  newly reached value** fills ease-in (about 400 ms), stops dead, and the reward
+  fires on the arrival frame.
+- **Feedback first:** the verdict mark lands in the same frame as the tap; any
+  decoration starts 1-4 frames later. Wrong is quiet: no shake, no flash.
 - Animate `transform` and `opacity` only; no `transition: all`.
 - Restart a CSS animation by removing its class and re-adding it a frame later.
 - Reduced motion: keep the state change and the sound, drop the movement.
@@ -57,7 +63,7 @@ Before building a moment, fill this sheet:
 
 | Field | Example |
 |---|---|
-| Trigger | Finished today's session |
+| Trigger | Finished the main task |
 | Feeling | Proud, quietly delighted |
 | Visual cue | Progress object moves up one step with a small spring |
 | Sound | Rising three-note chime, < 600 ms |

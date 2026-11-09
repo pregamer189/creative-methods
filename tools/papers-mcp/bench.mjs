@@ -15,16 +15,16 @@ import { dirname, join } from 'node:path';
 const here = dirname(fileURLToPath(import.meta.url));
 // [question, title words a relevant paper has, landmark DOI (checked in Crossref 2026-10-31) or null]
 const Q = [
-  ['spaced repetition distributed practice vocabulary retention', /distributed practice|spacing|spaced/i, '10.1037/0033-2909.132.3.354'],
-  ['retrieval practice testing effect long-term retention', /test-enhanced|testing effect|retrieval practice/i, '10.1111/j.1467-9280.2006.01693.x'],
-  ['spaced repetition scheduling algorithm memory model', /schedul/i, '10.1145/3534678.3539081'],
-  ['Japanese pitch accent perception training second language learners', /pitch accent/i],
-  ['high variability phonetic training non-native speech perception', /high.variability/i, '10.1121/1.1894649'],
-  ['incidental vocabulary learning from reading second language', /incidental/i],
-  ['unsuccessful retrieval attempts pretesting enhance learning', /pretest|unsuccessful retrieval|errorful/i, '10.1037/a0015729'],
-  ['habit formation mobile learning app streaks engagement', /habit/i],
-  ['glossing second language reading vocabulary', /gloss/i],
-  ['corrective feedback second language acquisition meta-analysis', /corrective feedback/i],
+  ['peak-end rule remembered experience', /peak|retrospective|memor/i, '10.1016/0304-3959(96)02994-6'],
+  ['prospect theory loss aversion decision under risk', /prospect|loss aversion/i, '10.2307/1914185'],
+  ['habit formation automaticity real world', /habit/i, '10.1002/ejsp.674'],
+  ['choice overload number of options meta-analysis', /choice overload|too many options|choice/i, '10.1086/651235'],
+  ['aesthetic usability effect perceived usability', /usab/i, '10.1016/S0953-5438(00)00031-X'],
+  ['reward prediction error dopamine', /reward/i, '10.1126/science.275.5306.1593'],
+  ['edit blindness film cuts attention', /edit|cut/i, '10.16910/jemr.2.2.6'],
+  ['self-determination theory intrinsic motivation', /self-determination|intrinsic motivation/i, '10.1037/0003-066X.55.1.68'],
+  ['baby schema cuteness perception', /baby schema|cute/i, '10.1111/j.1439-0310.2008.01603.x'],
+  ['visual complexity prototypicality website first impression', /visual complexity|first impression|prototypical/i, '10.1016/j.ijhcs.2012.06.003'],
 ];
 
 const flag = process.argv.indexOf('--sources');
@@ -33,7 +33,7 @@ const sources = flag > 0 ? ['--sources', process.argv[flag + 1]] : [];
 async function resolves(doi) {
   try {
     const r = await fetch(`https://doi.org/api/handles/${encodeURIComponent(doi)}`, {
-      headers: { 'User-Agent': 'LanguageApp-research/0.1 (no contact)' }, signal: AbortSignal.timeout(8000),
+      headers: { 'User-Agent': 'creative-methods-papers/0.1 (no contact)' }, signal: AbortSignal.timeout(8000),
     });
     return r.ok && (await r.json()).responseCode === 1;
   } catch { return false; }

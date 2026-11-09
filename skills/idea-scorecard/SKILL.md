@@ -5,7 +5,7 @@ description: Use when weighing ideas (product, feature, design, marketing, video
 
 # Idea scorecard
 
-Version 1.1 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.2 (2026-11-08). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 Judge ideas objectively: not by who said them, and not by whether they sound good
 to the agent. The product's own rules come from the repo's `CLAUDE.md` or the
@@ -57,9 +57,9 @@ I12 · outside 15/24 (medium) · owner 4/5, said 3 times · kind: marketing
 ## Writing "stronger if"
 
 A strong pattern (Elias, I58): take a proven mechanism, ask what our unique
-capability changes about it, and aim it at a human feeling. Example: spaced review
-(proven) + AI that rewrites forgotten cards after a break (ours) = coming back
-without feeling like a failure. Keep the idea's unusual part whole: the parts an
+capability changes about it, and aim it at a human feeling. Example: a habit cue
+(proven) + a welcome back that picks up exactly where the person left off (ours) =
+coming back without feeling like a failure. Keep the idea's unusual part whole: the parts an
 agent wants to cut are often what makes it sell (I6).
 
 ## Good and bad

@@ -14,8 +14,14 @@ idea ─► score ─► research ─► plan ─► build with skills ─► ga
                                                             trust)      a time)
 ```
 
+The philosophy under the chain, and how a raw idea becomes a scene, a video, a
+landing page or a screen: `methods/principles/` (start with `idea-to-finished.md`).
+
 | Step | Method | Skill |
 |---|---|---|
+| Sort the questions; decide from evidence | `methods/principles/evidence-first.md` | |
+| Give a product one idea and a job per page | `methods/principles/product-philosophy.md` | |
+| Plan, critic pass, decide and log, hard rules | `methods/principles/running-the-work.md` | |
 | Score an idea on its merits | `methods/research/idea-rail.md` | `idea-scorecard` |
 | Find evidence | `methods/research/paper-search.md` | (tool: `tools/papers-mcp`) |
 | Bring taste in as an input | `methods/research/taste.md` | |
@@ -31,6 +37,11 @@ idea ─► score ─► research ─► plan ─► build with skills ─► ga
 | Cut it | `methods/video/editing-rules.md` | |
 | Check a film | `methods/video/film-quality-gate.md` | `film-quality-gate` |
 | Interface motion, press feedback, sound | `methods/motion-graphics/ui-motion.md` | `motion-and-feedback` |
+| Measure a reference's motion frame by frame | `methods/motion-graphics/measured-teardown.md` | |
+| Try micro-interactions and sounds before building | `methods/motion-graphics/motion-and-sound-lab.md` | `review-picker` |
+| Scenes and environments for the product and its films | `methods/design/scene-kit.md` | |
+| Short videos for a teaching account | `methods/video/teaching-account.md` | `film-quality-gate` |
+| Landing and waitlist pages | `methods/web/landing-pages.md` | `review-picker` |
 | Make it feel alive and rewarding | `methods/emotion-graphics/README.md` | |
 | Visual rules | `methods/design/` | |
 | Show a change for review, or a page of picks | `methods/design/show-changes.md` | `review-picker` |

@@ -1,11 +1,11 @@
 ---
 name: review-picker
-description: Use when making any page or message where a person picks between options (designs, ideas, films, plans, settings). Each item is an A/B comparison with like or dislike per part, "Neither", a tier on every option and a comment button, in very little text on a light, clear page; answers save as they are made.
+description: Use when making any page or message where a person picks between options or marks finished work (designs, ideas, films, plans, settings). Each item is a real thing with one plain sentence, pick buttons that post real comments, "Neither", a tier on every option and a comment button that opens the page's own comment box; phone size first, very little text.
 ---
 
 # Review picker
 
-Version 1.4 (2026-10-31). Changes: CHANGELOG.md in pregamer189/creative-methods.
+Version 1.5 (2026-11-08). Changes: CHANGELOG.md in pregamer189/creative-methods.
 
 A picker exists to get a clear answer fast. The owner rejected pickers that gave
 no way to say "neither", no room for a short comment, and options that made no
@@ -42,17 +42,36 @@ and state for each, so the difference shows.
 - One option is **recommended**, with a reason of a few words.
 - **"Neither"** always sits beside the options.
 - Every option shows its **tier label** ("Tier 2 · polished").
-- **A comment button on every part** (hard rule, the owner, 2026-10-31: "add text
-  input ... thats a RULE"; "a comment button, because then I can transcribe the
-  issue"). It opens a large text box with the cursor already in it, ready for
-  phone dictation; once there is text it stays visible and is saved with the
-  answer. A comment alone, with nothing picked, counts as an answer.## The page
+- **A comment button on every part** (hard rule, the owner, 2026-10-31: "a comment
+  button, because then I can transcribe the issue"). Where the page host has its own
+  comments (on a Claude Artifact, the `comments` capability), the button opens **that
+  composer** anchored to the card, ready for dictation. A comment alone, with nothing
+  picked, counts as an answer.
+- **Picks post real comments; no text input fields on the page** (hard rule, the
+  owner, 2026-11-03). Every pick button (Like, Don't like, A, B, Neither, a preset
+  tag) creates a real comment on the host, anchored to its card, for example
+  `Pick: B · Too much text`. A copy in the shared store is a fine backup. Only on a
+  host with no comments does the page fall back to its own saved text box.
+- **Preset tags** beside the picks, so marking is fast: for example Pacing off, Too
+  much text, Looks cheap, Unclear, Feels real, Premium, Calm.
+- **One mark per thing.** Never bundle several items (a whole sound set, three
+  screens) into one card; each gets its own marks, so one bad one can be singled out.
+- **Every card explains itself:** "This is X. You are rating Y." A sound card plays
+  the sound inside the moment it belongs to. No riddles, no poetic copy, no principle
+  without an example in a real view.
+- **The bias line** sits near the picks (the owner, 2026-11-01): "Rendering quality can
+  bias your pick: judge the idea, not the polish."
+
+## The page
 
 - **Very little text** (the owner: "I won't read it, because it's just too much").
   No intro paragraphs; the feedback line and the tier ladder are one line each;
   everything else is pictures, labels, buttons and boxes.
 - **Light and clear:** a light background, strong contrast, large type and large
   tap targets, so nothing reads as dark or murky. Images shown big.
+- **Phone size first.** Build and check every card at phone width; screenshot every
+  variation before publishing, and fix or drop any that is broken (elements out of
+  place, overlapping text).
 - About seven items at most; the rest wait for the next page.
 - **Answered questions go away.** When the person comes back, show only what is still
   unanswered, with one key to bring the answered ones back. Never ask again what they
@@ -64,6 +83,11 @@ and state for each, so the difference shows.
   `db.collection("marks").get()`, repaints the answers and hides the answered
   items. A status line says "Answers save as you go"; if the store is missing it
   says "Use Copy to send these".
+- **Read every comment and act on it.** Each comment gets a visible change or a direct
+  answer, listed back. Then archive the round (every mark, tag and comment) into the
+  product's preferences log, newest first, and clear the page's marks for the next
+  round.
+- **Verdicts are icons**, never words: a green check, an orange "!", a red X.
 - **The person only says "done" in chat.** The agent then reads the marks itself
   (on an Artifact: ArtifactData list, collection "marks") and never asks for a paste.
 - A **"Copy my marks"** key stays as the backup: every answer as plain text, one
@@ -84,13 +108,16 @@ and state for each, so the difference shows.
   stays biggest) 👍👎 · B · centre, large 👍👎 · Neither · 💬 Comment
 - Bad: "6. Layer model B/C hybrid?" No sentence, a code, no example, no "Neither".
 - Bad: a page whose marks live only in that browser.
+- Bad: "Sound set B" with five sounds on one card and no moment shown.
 - Bad: "Mostly short sounds instead of speech (your idea)" with no quote or link,
   when the person never said it.
 
 ## Done when
 
-The feedback line is at the top, every item is an A/B with options, a
-recommendation, like / dislike per part, "Neither", a tier label on every option
-and a comment button, the page is light with almost no text, answers save to the shared store as
-they are made (with Copy as the backup), every "you said" is quoted and linked,
-and every option is shown at the real quality.
+The feedback line is at the top, every item is a real thing with one plain
+sentence, an A/B with a recommendation where there is a choice, like / dislike per
+part, "Neither", preset tags, a tier label on every option and a comment button
+that opens the host's composer; every pick posts a real comment; there are no text
+fields on the page (where the host has comments); the bias line is there; every
+variation was screenshot-checked at phone width; every "you said" is quoted and
+linked; and every option is shown at the real quality.

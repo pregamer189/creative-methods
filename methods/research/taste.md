@@ -39,7 +39,7 @@ done.** Balance consuming and making, about 50/50.
 |---|---|---|
 | Copy | The same format for your product | Fast, saturates first |
 | Iterate | Change one variable (hook, caption, script) in something that worked, and watch | Learn what mattered |
-| **Referential concepting** | Take a whole creative idea from another field into yours | Riskiest, and how you become the one others copy. Pingo: creators speak badly on camera, its AI roasts them; reaction-video idea brought into language learning |
+| **Referential concepting** | Take a whole creative idea from another field into yours | Riskiest, and how you become the one others copy. For example a reaction-video format brought into a category that never used it |
 
 ## File to keep per person or brand
 
