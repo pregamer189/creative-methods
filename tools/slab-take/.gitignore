@@ -1,0 +1,6 @@
+*.mp4
+*.mov
+path*.json
+selftest-*.json
+slab-*.png
+__pycache__/

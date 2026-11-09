@@ -30,6 +30,7 @@ landing page or a screen: `methods/principles/` (start with `idea-to-finished.md
 | What great films do, frame by frame | `methods/video/visual-grammar.md` | (tools: `tools/video-refs/shots.py`) |
 | Plan a film | `methods/video/storytelling.md`, `storyboard.md` | `video-storyboard` |
 | Shoot it yourself | `methods/video/solo-shoot.md` | |
+| Plan and build a launch, promo or waitlist film (capture the idea in layers, slab take, greybox, hybrid route) | `methods/video/launch-films.md` | (tool: `tools/slab-take/`) |
 | Build a coded film | `methods/video/coded-films-workflow.md`, `methods/motion-graphics/film-motion.md` | |
 | Sound and music | `methods/video/sound.md` | |
 | Voice | `methods/video/voice.md` | |
