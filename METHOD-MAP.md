@@ -41,6 +41,7 @@ landing page or a screen: `methods/principles/` (start with `idea-to-finished.md
 | Try micro-interactions and sounds before building | `methods/motion-graphics/motion-and-sound-lab.md` | `review-picker` |
 | Scenes and environments for the product and its films | `methods/design/scene-kit.md` | |
 | Short videos for a teaching account | `methods/video/teaching-account.md` | `film-quality-gate` |
+| Film a scroll page for short-video feeds | `methods/video/scroll-page-films.md` | `film-quality-gate` |
 | Landing and waitlist pages | `methods/web/landing-pages.md` | `review-picker` |
 | Make it feel alive and rewarding | `methods/emotion-graphics/README.md` | |
 | Visual rules | `methods/design/` | |
