@@ -93,3 +93,10 @@ instead of asking all the time." So:
 
 - Ask before every change or delete on the owner's own computer; reading is fine.
 - Nothing irreversible (sending outside, deleting, paying) without the owner's yes.
+
+## Only what was asked
+
+- Add nothing to finished work that the owner did not ask for (an effect, a
+  colour blend, an extra element). Suggest it in one sentence instead.
+- If something was added anyway, list every such addition so it can be removed in
+  one pass.

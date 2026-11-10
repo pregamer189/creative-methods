@@ -44,6 +44,28 @@ are on the right track.
 - Real lit art (`../design/scene-kit.md`); the product's own keys and type.
 - **Reduced motion:** wipes become plain cuts, nothing drifts.
 
+## Lessons from review rounds
+
+- **Nothing sits at the edges.** Cards and blocks with text in them never touch
+  or hug the screen edges or corners. Use one shared, generous side margin for
+  every floating block, on the page and in the product.
+- **Things in a scene are there from the start.** Labels and props are fixed in
+  the scene, already in place when the camera arrives, and they leave by being
+  passed. Anything that pops in as you get close, or that updates in steps, feels
+  like a bug.
+- **Small and quiet beats many and loud.** A scene full of labels overwhelms. A
+  few, small, subtle ones.
+- **Flat colour.** No colour blends added for mood. Depth comes from steps.
+- **Only what was asked.** No extra rays, glints or blends on your own
+  initiative. Offer the idea in a sentence; build it on a yes.
+- **Slow zones, not stops.** Where the visitor should take something in, the
+  scroll gets heavier for a moment. It never locks.
+- **Voices on the way past** are the one sound a page may play on scroll, and
+  only if the owner asks for it: half of an exchange, said as you pass, timed so
+  it finishes before the speaker is off screen.
+
+Turning the page into a film: `../video/scroll-page-films.md`.
+
 ## Signup
 
 - Stub the form (nothing stored or sent) until the email service and domain are
