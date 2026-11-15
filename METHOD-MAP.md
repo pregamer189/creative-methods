@@ -22,6 +22,8 @@ landing page or a screen: `methods/principles/` (start with `idea-to-finished.md
 | Sort the questions; decide from evidence | `methods/principles/evidence-first.md` | |
 | Give a product one idea and a job per page | `methods/principles/product-philosophy.md` | |
 | Plan, critic pass, decide and log, hard rules | `methods/principles/running-the-work.md` | |
+| Research, one-line ideas, the owner's pick, then build | `methods/principles/running-the-work.md` | `idea-scorecard` |
+| Hand work over, reply, keep the log current | `methods/principles/handoffs-and-replies.md` | `review-picker` |
 | Score an idea on its merits | `methods/research/idea-rail.md` | `idea-scorecard` |
 | Find evidence | `methods/research/paper-search.md` | (tool: `tools/papers-mcp`) |
 | Bring taste in as an input | `methods/research/taste.md` | |
