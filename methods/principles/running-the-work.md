@@ -37,6 +37,29 @@ A fresh reviewer that sees only the references and the plan, not the reasoning,
 does the critic pass for anything big. Checks by the same model share its blind
 spots (Elias, I14).
 
+## Creative work: research, one line, pick, plan, build
+
+For anything creative the owner will judge on taste (a film idea, a campaign, a
+look), the order is fixed (Elias, 2026-11-11 to 11-13):
+
+1. **Research first.** What is working right now for small and new accounts or
+   products like this one, measured by real numbers, not by our taste.
+2. **Ideas in one line each.** No mockups, no renders. Each line names the
+   **point a stranger cares about**; a good-looking object or scene alone is not
+   an idea (Elias, 2026-11-11).
+3. **The one-second test.** A stranger gets the point within the first second
+   of seeing it. If it needs an explanation, it isn't ready.
+4. **The owner picks.** Make, rethink or cut per idea. A "rethink" comes back as
+   a new line, not a reworked render.
+5. **A short plan for the pick**, and the owner's yes on it, **before any paid
+   generation or render**: the idea, the first two seconds, timing on the music,
+   the tone, the exact lines, the sounds.
+6. **Build once**, then gate it (`skills/film-quality-gate` for films).
+
+Never re-propose an idea that was rejected or already used; every round brings a
+new concept. Keep a list of rejected ideas with the owner's reason so the next
+round can't repeat them.
+
 ## Decide and log
 
 Elias, 2026-11-01: "you stop for my choice way too much... do more research
@@ -45,6 +68,8 @@ instead of asking all the time." So:
 - Anything research, references or a critic pass can settle is decided, not asked.
 - Every decision goes into a numbered decisions log: **the decision, the evidence,
   and what the owner can still veto by marking the built piece.**
+- When asked to "decide", decide in that turn and say the decision in one line
+  with its reason; don't hand back a menu.
 - The owner is shown only finished, polished pieces, in occasional batches, to mark
   what they dislike. A dislike means rework from research, not a new pick page.
 - Only true taste questions go to the owner, batched.
@@ -88,8 +113,17 @@ instead of asking all the time." So:
   research and planning; low effort only for lookups with a known answer.
 - **Plans are the cache:** read the plans before the sources; never re-research what
   a brief already answers.
+- **Lean sessions.** A big build starts in a fresh session from one plan file,
+  not from a long chat. Read only the parts of a file you need, keep long tool
+  output out of the conversation, and never re-run a check whose inputs haven't
+  changed.
+- **Watch paid quotas.** Note what is left on each paid research or generation
+  tool and when it resets, and stop before the cap, not at it.
 
 ## Safety
 
 - Ask before every change or delete on the owner's own computer; reading is fine.
 - Nothing irreversible (sending outside, deleting, paying) without the owner's yes.
+- **Public repos get a blind read.** Before pushing to a public repo, a fresh
+  reviewer that knows nothing reads the diff and guesses what product it is for.
+  Fix every phrase it quotes as a clue; small words add up.

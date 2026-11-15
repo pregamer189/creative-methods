@@ -11,7 +11,8 @@ changed or clarified; major = the skill's job or steps changed) and adds a row.
 
 | Date | Item | Version | Change | Sync |
 |---|---|---|---|---|
-| 2026-11-09 | motion-and-feedback | 1.5 | The measured-teardown pointer is no longer a repo path, so installed copies pass the product repos' broken-link check | LanguageApp, Prello |
+| 2026-11-15 | methods | - | New `principles/handoffs-and-replies.md` (replies lead with the result and the link, paste-only blocks, verdict icons, do only what was asked, one item at a time, the log updated in the same turn, saved / parked / standing approvals, never-use lists, results by numbers); `running-the-work.md` gains the creative order (research, one-line ideas with a point a stranger gets in one second, the owner's pick, a plan and a yes before paid renders, never re-propose), decide in the turn, lean sessions, paid quotas, a blind read before public pushes | - |
+| 2026-11-09 | motion-and-feedback | 1.5 | The measured-teardown pointer is no longer a repo path, so installed copies pass the product repos' broken-link check | draft-concept, Prello |
 | 2026-11-08 | review-picker | 1.5 | Pick buttons post real comments on the page host and the comment button opens the host's own composer (no text fields on the page there); preset tags; one mark per thing; "This is X. You are rating Y."; the bias line; phone size first with every variation screenshot-checked; each round archived to the preferences log and cleared; verdicts as icons | draft-concept, Prello |
 | 2026-11-08 | motion-and-feedback | 1.4 | Ease-in scoped: never on a tap response; exits may accelerate and a progress bar jumping to a new value fills ease-in with the reward on arrival (measured teardown); feedback mark lands on the tap frame; wrong is quiet | draft-concept, Prello |
 | 2026-11-08 | video-storyboard | 1.8 | Examples made product-neutral (viewer motive, the good shot example) | draft-concept, Prello |

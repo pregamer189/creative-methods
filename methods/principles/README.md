@@ -9,6 +9,7 @@ know it works, and how the work runs from a raw idea to a finished thing.
 | `evidence-first.md` | How we decide: sort every question, research before variations, measure real use, rescue what doesn't work |
 | `product-philosophy.md` | How a product gets one idea, a page philosophy and rules every screen follows |
 | `running-the-work.md` | How the work runs day to day: chunks, plans with a critic pass, decide and log, hard rules from repeated misses |
+| `handoffs-and-replies.md` | How finished work reaches the owner: short replies with the link, paste-only blocks, verdict icons, one item at a time, a log that is always current, saved and parked work, never-use lists, results by numbers |
 | `idea-to-finished.md` | The pipeline from a raw idea to a finished scene, video, landing page or screen |
 
 Craft methods that grew out of these principles:
@@ -45,3 +46,5 @@ Craft methods that grew out of these principles:
    research, then a written rule every later piece is checked against.
 10. **The owner's words are kept whole.** Briefs are saved verbatim, every nuance gets
     a line in a checklist, and nothing is called "your idea" without the quote.
+11. **One item at a time, always linked.** Hand over the one thing the owner
+    needs next, with its text and link, and keep the log current in the same turn.
