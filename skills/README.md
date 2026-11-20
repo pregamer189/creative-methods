@@ -9,6 +9,7 @@ one, with reasons and sources, is in `methods/`.
 |---|---|---|
 | `film-quality-gate` | Checking any finished film before a person sees it | `methods/video/film-quality-gate.md` |
 | `video-storyboard` | Planning a short film before building or shooting | `methods/video/storytelling.md`, `storyboard.md` |
+| `short-sketch-script` | Writing the script for a 5 to 20 s funny or relatable video with a person on camera, before the storyboard | `skills/short-sketch-script/SOURCES.md` (sources and their status) |
 | `motion-and-feedback` | Adding animation, press feedback, haptics, sound or a celebration moment to an interface | `methods/motion-graphics/ui-motion.md`, `methods/emotion-graphics/README.md` |
 | `idea-scorecard` | Weighing ideas on their merits, blind, with the owner's view kept apart | `methods/research/idea-rail.md` |
 | `review-picker` | Making any page or message where a person picks between options | `methods/design/show-changes.md` (picker pages) |

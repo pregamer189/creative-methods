@@ -30,6 +30,7 @@ landing page or a screen: `methods/principles/` (start with `idea-to-finished.md
 | Learn from great work | `methods/research/reference-analysis.md`, `references/watch-list.md` | (tools: `tools/video-refs/`) |
 | How every part of a film gets made | `methods/video/production-foundation.md` | |
 | What great films do, frame by frame | `methods/video/visual-grammar.md` | (tools: `tools/video-refs/shots.py`) |
+| Write a short person-on-camera sketch | `skills/short-sketch-script/SOURCES.md` | `short-sketch-script` (then `video-storyboard`) |
 | Plan a film | `methods/video/storytelling.md`, `storyboard.md` | `video-storyboard` |
 | Shoot it yourself | `methods/video/solo-shoot.md` | |
 | Build a coded film | `methods/video/coded-films-workflow.md`, `methods/motion-graphics/film-motion.md` | |
