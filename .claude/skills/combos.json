@@ -5,6 +5,7 @@
     { "name": "Interface moment", "task": "Add a celebration moment and tactile keys to a screen", "skills": ["motion-and-feedback"] },
     { "name": "Ideas and skills", "task": "Score a batch of ideas, then add a new skill for the winner", "skills": ["idea-scorecard", "skill-audit"] },
     { "name": "Show picks", "task": "Show three interface moment options on a picker page", "skills": ["review-picker", "motion-and-feedback"] },
+    { "name": "Sketch to film", "task": "Write a 12 s person-on-camera sketch, storyboard it, gate it", "skills": ["short-sketch-script", "video-storyboard", "film-quality-gate"] },
     { "name": "Everything", "task": "A product film that shows an interface moment", "skills": ["video-storyboard", "film-quality-gate", "motion-and-feedback", "idea-scorecard", "skill-audit", "review-picker"] }
   ]
 }
